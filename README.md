@@ -1,0 +1,1 @@
+# globalresidencyadvisors-shopify
