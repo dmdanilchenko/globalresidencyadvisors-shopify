@@ -1,0 +1,37 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "static-footer",
+      "blocks": {
+        "static-footer-0": {
+          "type": "menu",
+          "settings": {
+            "menu": "main-menu"
+          }
+        },
+        "static-footer-1": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Subscribe",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "static-footer-0",
+        "static-footer-1"
+      ],
+      "settings": {
+        "payment_icons": true,
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "additional_menu": "footer"
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

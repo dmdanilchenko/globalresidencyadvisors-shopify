@@ -1,0 +1,252 @@
+{
+  "sections": {
+    "dynamic_slideshow": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/IMG_3986.jpg",
+            "mobile_background_image": "shopify:\/\/shop_images\/IMG_3986.jpg",
+            "title": "",
+            "text": "",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "secondary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 13
+          }
+        },
+        "slide-4": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/52CD1C64-8A72-428B-9EF5-AB1AEB5330DD.webp",
+            "mobile_background_image": "shopify:\/\/shop_images\/52CD1C64-8A72-428B-9EF5-AB1AEB5330DD.webp",
+            "title": "",
+            "text": "",
+            "color": "#1d1d1d",
+            "link": "",
+            "text_alignment": "left",
+            "button_one_label": "",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "secondary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "slide-3": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/IMG_3979.jpg",
+            "mobile_background_image": "shopify:\/\/shop_images\/IMG_3979.jpg",
+            "title": "",
+            "text": "",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "secondary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        },
+        "8e767047-f74f-4a80-bcd4-de4cf261ffc3": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/55665E08-1A7C-4305-9388-68FE97C75893.webp",
+            "mobile_background_image": "shopify:\/\/shop_images\/55665E08-1A7C-4305-9388-68FE97C75893.webp",
+            "title": "",
+            "text": "",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "slide-1",
+        "slide-4",
+        "slide-3",
+        "8e767047-f74f-4a80-bcd4-de4cf261ffc3"
+      ],
+      "settings": {
+        "enable_autoplay": true,
+        "autoplay_duration": 9,
+        "slideshow_width": "full",
+        "slideshow_height": "medium",
+        "slideshow_height_mobile": "x-large",
+        "slideshow_text_below_image": false
+      }
+    },
+    "dynamic_highlights_banner": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight-2": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-cell-phone",
+            "title": "Give Us A Call",
+            "text": "<p>+1 772 289 9625<\/p>",
+            "link": ""
+          }
+        },
+        "highlight-3": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "Chat With Us",
+            "text": "<p>We offer 24-hour chat support<\/p>",
+            "link": ""
+          }
+        },
+        "highlight_eXCqGm": {
+          "type": "highlight",
+          "settings": {
+            "icon": "none",
+            "title": "",
+            "text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight-2",
+        "highlight-3",
+        "highlight_eXCqGm"
+      ],
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "center",
+        "color": "#ffffff",
+        "icon_color": "#d8a374",
+        "background_color": "#2f3841",
+        "mobile_layout": "grid"
+      }
+    },
+    "dynamic_promo_mosaic": {
+      "type": "dynamic-promo-mosaic",
+      "blocks": {
+        "promotion-1": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3983.jpg",
+            "title": "About",
+            "text": "Our team is composed of experts in relocation and residency advice, dedicated to providing professional and helpful customer service. We are committed to building long-term partnerships with our clients, focusing on high-quality support and excellent service.",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#0c1b35",
+            "opacity": 50
+          }
+        },
+        "promotion-3": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3D683EA0-D548-4153-BE16-4C7A0E813ED2.webp",
+            "title": "Personalised Support",
+            "text": "We customise our advice to meet each client's unique needs, ensuring personalised and relevant guidance for every individual.",
+            "color": "{{ shop.brand.colors.secondary[0].foreground }}",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "promotion-2": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/combination-lock-secure.jpg",
+            "title": "Secure",
+            "text": "We consistently maintain strict confidentiality measures to ensure the security and privacy of clients' information.",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#0c1b35",
+            "opacity": 50
+          }
+        },
+        "promotion-4": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/506A2C6E-DF27-4981-8147-5FCC7AB79B20.webp",
+            "title": "Efficient",
+            "text": "We are committed to providing timely, high-quality service that meets our clients' needs.",
+            "color": "{{ shop.brand.colors.secondary[0].foreground }}",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion-1",
+        "promotion-3",
+        "promotion-2",
+        "promotion-4"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "text_alignment": "top-left",
+        "maintain_aspect_ratio": true,
+        "compress_blocks": false
+      }
+    },
+    "dynamic_search": {
+      "type": "dynamic-search",
+      "settings": {
+        "title": "Search",
+        "text": "",
+        "placeholder": "What are you looking for?",
+        "filter_search_by": "disabled",
+        "enable_live_search": true,
+        "enable_live_search_images": false,
+        "show-overlay": false,
+        "color": "#ffffff",
+        "background": "#000000",
+        "opacity": 50
+      }
+    }
+  },
+  "order": [
+    "dynamic_slideshow",
+    "dynamic_highlights_banner",
+    "dynamic_promo_mosaic",
+    "dynamic_search"
+  ]
+}
