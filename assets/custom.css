@@ -1,0 +1,85 @@
+.disclosure-list .disclosure-list__item {
+    color: var(--disclosure-toggle-text-color);
+}
+
+.disclosure-list .disclosure-list__item:hover {
+    color: var(--disclosure-toggle-text-color);
+}
+
+.form-field .error {
+    display: block;
+    text-align: left;
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.spr-content .spr-pagination a:hover, .spr-content .spr-review .spr-review-footer a:hover,
+.spr-summary-caption a.spr-summary-actions-togglereviews:hover, .product-recently-viewed__clear:hover,
+.shopify-payment-button .shopify-payment-button__more-options:hover, .complementary-product__link:hover,
+.product-vendor a:hover, .utils-sortby-button:hover, .utils-filter-button:hover,
+.productgrid--sidebar-menu .navmenu-link--active:hover, .productgrid-listview .productitem--link:hover,
+.productgrid--footer-results-list a:hover, .filter-item-clear-all:hover, .active-filters__clear-link:hover,
+.collection-filters__filter-link[data-filter-active]:hover, [data-filter-active=true]:hover,
+.filter-item a.filter-text--link:hover, .pagination--inner a:hover, .search-flydown__continue:hover,
+.search-flydown__list-item a:hover, .live-search-takeover-cancel:hover, .collection__item-title:hover,
+.breadcrumbs-container a:hover, .article--excerpt-readmore:hover, .account-page-content a:hover,
+.search-section__text a:hover, .menulist-menu__show-more-trigger:hover, .blogposts--footer-link:hover,
+.subcollections__container a:hover, .subcollections-featured-collection__subcollection-cta:hover,
+.subcollections-featured-collection__subcollection-menu-link:hover, .product-compare__placeholder-link:hover,
+.product-compare__clear-all:hover, .product-link:hover, .passwordentry-contents a:hover,
+.password-page-footer--item a:hover, .cart-continue:hover, .cart-shipping .cart-shipping-toggle:hover,
+.cart-update:hover, .article--pagination .article--pagination-item-left > a:hover,
+.article--pagination .article--pagination-item-right > a:hover, .article--tags a:hover, .rte a:hover,
+.pxs-newsletter-text a:hover, .shoppable-image__text-box-subheading a:hover, .image-with-text__text a:hover {
+    color: #4d4d4d;
+    text-decoration: underline;
+}
+
+.form-action--see-password {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    z-index: 1;
+    padding: 15px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.form-action--see-password svg {
+    width: 20px;
+    fill: #333;
+}
+
+.form-action--see-password .show svg {
+    padding: 0 1px;
+}
+
+.form-action--see-password .show {
+    display: block;
+}
+
+.form-action--see-password .hide {
+    display: none;
+}
+
+.form-action--see-password.active .show {
+    display: none;
+}
+
+.form-action--see-password.active .hide {
+    display: block;
+}
+
+.site-footer-block-menu .navmenu-item.navmenu-id-account {
+    margin-bottom: .3125rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .site-header-main .live-search {
+        margin-right: 0;
+    }
+}

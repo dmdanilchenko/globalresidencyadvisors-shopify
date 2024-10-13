@@ -121,7 +121,7 @@
             "icon": "icon-chat-alternate",
             "title": "Chat With Us",
             "text": "<p>We offer 24-hour chat support<\/p>",
-            "link": ""
+            "link": "shopify:\/\/pages\/chat-with-us"
           }
         },
         "highlight_eXCqGm": {
@@ -233,9 +233,9 @@
         "title": "Search",
         "text": "",
         "placeholder": "What are you looking for?",
-        "filter_search_by": "disabled",
+        "filter_search_by": "product_type",
         "enable_live_search": true,
-        "enable_live_search_images": false,
+        "enable_live_search_images": true,
         "show-overlay": false,
         "color": "#ffffff",
         "background": "#000000",

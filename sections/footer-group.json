@@ -8,7 +8,7 @@
         "static-footer-0": {
           "type": "menu",
           "settings": {
-            "menu": "main-menu"
+            "menu": "footer"
           }
         },
         "static-footer-1": {
@@ -17,17 +17,31 @@
             "title": "Subscribe",
             "text": ""
           }
+        },
+        "social_accounts_mx7Lqr": {
+          "type": "social_accounts",
+          "settings": {}
+        },
+        "rich_text_4whb7E": {
+          "type": "rich_text",
+          "settings": {
+            "title": "Contact us",
+            "text": "<p>Threadblue LLC, 30 N Gould St ste r, Sheridan Wyoming 82801, United States<\/p><p>+17722899625<\/p><p>Contact@CrossBorderCareers.com<\/p>"
+          }
         }
       },
       "block_order": [
         "static-footer-0",
-        "static-footer-1"
+        "static-footer-1",
+        "social_accounts_mx7Lqr",
+        "rich_text_4whb7E"
       ],
       "settings": {
+        "show_follow_on_shop": true,
         "payment_icons": true,
         "show_locale_selector": true,
         "show_currency_selector": true,
-        "additional_menu": "footer"
+        "additional_menu": ""
       }
     }
   },

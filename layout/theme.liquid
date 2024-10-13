@@ -69,10 +69,12 @@
 
     <link rel="preload" href="{{ settings.type_menu | font_url }}" as="font" crossorigin="anonymous">
     <link rel="preload" as="style" href="{{ 'theme.css' | asset_url }}">
+    <link rel="preload" as="style" href="{{ 'custom.css' | asset_url }}">
 
     {{ content_for_header }}
 
     {{ 'theme.css' | asset_url | stylesheet_tag }}
+    {{ 'custom.css' | asset_url | stylesheet_tag }}
 
     {% unless settings.reduce_animations %}
       {{ 'ripple.css' | asset_url | stylesheet_tag }}
@@ -100,6 +102,8 @@
         "cart_clear_url": "{{ routes.cart_clear_url }}",
         "product_recommendations_url": "{{ routes.product_recommendations_url }}",
       };
+      window.Theme.requiredFieldErrorMessage = {{ 'general.errors.required_field' | t | json }};
+      window.Theme.selectCountryErrorMessage = {{ 'general.errors.select_country' | t | json }};
     </script>
     {% comment %}Inject theme-object end{% endcomment %}
 
@@ -583,7 +587,7 @@
         async
       ></script>
     {%- endif -%}
-
+    <script src="{{ 'custom.js' | asset_url }}" defer></script>
     {% render 'structured-data' %}
 
     <script>

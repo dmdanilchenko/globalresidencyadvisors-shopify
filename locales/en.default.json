@@ -200,6 +200,10 @@
       "hour": "hour",
       "hours": "hours",
       "ago": "ago"
+    },
+    "errors": {
+      "required_field": "It is required field.",
+      "select_country": "Please select country."
     }
   },
   "sections": {
