@@ -284,8 +284,9 @@
   "header": {
     "account": {
       "title": "Mi cuenta",
-      "login": "Ingresar",
-      "logout": "Cerrar sesión"
+      "login": "Ingresar / Registrarse",
+      "logout": "Cerrar sesión",
+      "welcome": "Hola {{ first_name }}"
     }
   },
   "footer": {

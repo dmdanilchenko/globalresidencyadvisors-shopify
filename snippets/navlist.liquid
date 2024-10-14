@@ -65,6 +65,19 @@
   {% if depth > 1 %}data-navmenu-submenu{% endif %}
   {% if menu_title %}aria-label="{{ menu_title }}"{% endif %}
 >
+
+  {%- if shop.customer_accounts_enabled -%}
+    {%- if customer -%}
+      <li class="navmenu-item navmenu-id-account">
+        <a href="{{ routes.account_url }}" class="navmenu-link">{{- 'header.account.title' | t -}}</a>
+      </li>
+    {%- else -%}
+      <li class="navmenu-item navmenu-id-account">
+        <a href="{{ routes.account_login_url }}" class="navmenu-link">{{- 'header.account.login' | t -}}</a>
+      </li>
+    {%- endif -%}
+  {%- endif -%}
+
   {% for menu_item in menu_list %}
     {% assign d = depth | plus: 1 %}
 
