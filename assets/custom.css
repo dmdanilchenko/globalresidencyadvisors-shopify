@@ -14,6 +14,24 @@
     margin-top: 5px;
 }
 
+.spr-content .spr-pagination a, .spr-content .spr-review .spr-review-footer a,
+.spr-summary-caption a.spr-summary-actions-togglereviews, .product-recently-viewed__clear,
+.shopify-payment-button .shopify-payment-button__more-options, .complementary-product__link,
+.product-vendor a, .utils-sortby-button, .utils-filter-button, .productgrid--sidebar-menu .navmenu-link--active,
+.productgrid-listview .productitem--link, .productgrid--footer-results-list a, .filter-item-clear-all,
+.active-filters__clear-link, .collection-filters__filter-link[data-filter-active],
+.filter-item--grid-simple .filter-item-clear-all, [data-filter-active=true], .filter-item a.filter-text--link,
+.pagination--inner a, .search-flydown__continue, .search-flydown__list-item a, .live-search-takeover-cancel,
+.collection__item-title, .breadcrumbs-container a, .article--excerpt-readmore, .account-page-content a,
+.search-section__text a, .menulist-menu__show-more-trigger, .blogposts--footer-link, .subcollections__container a,
+.subcollections-featured-collection__subcollection-cta, .subcollections-featured-collection__subcollection-menu-link,
+.product-compare__placeholder-link, .product-compare__clear-all, .product-link, .passwordentry-contents a,
+.password-page-footer--item a, .cart-continue, .cart-shipping .cart-shipping-toggle, .cart-update,
+.article--pagination .article--pagination-item-left > a, .article--pagination .article--pagination-item-right > a,
+.article--tags a, .rte a, .pxs-newsletter-text a, .shoppable-image__text-box-subheading a, .image-with-text__text a {
+    font-weight: bold;
+}
+
 .spr-content .spr-pagination a:hover, .spr-content .spr-review .spr-review-footer a:hover,
 .spr-summary-caption a.spr-summary-actions-togglereviews:hover, .product-recently-viewed__clear:hover,
 .shopify-payment-button .shopify-payment-button__more-options:hover, .complementary-product__link:hover,
@@ -81,5 +99,9 @@
 @media screen and (min-width: 1024px) {
     .site-header-main .live-search {
         margin-right: 0;
+    }
+
+    .site-footer-block-title[data-accordion-trigger] {
+        display: none;
     }
 }

@@ -280,8 +280,9 @@
   "header": {
     "account": {
       "title": "My Account",
-      "login": "Login",
-      "logout": "Logout"
+      "login": "Login / Signup",
+      "logout": "Logout",
+      "welcome": "Hello {{ first_name }}"
     }
   },
   "footer": {
