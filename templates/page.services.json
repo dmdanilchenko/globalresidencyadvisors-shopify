@@ -1,0 +1,105 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {}
+    },
+    "dynamic_promo_grid_Be4nm7": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "promotion_DBmmH4": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4BEDCC9E-4B86-4E04-89E3-455BA04F095F.webp",
+            "title": "Residency Services",
+            "text": "For clients looking to relocate or gain citizenship in a new country",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/pages\/residency-and-citizenship",
+            "button_text": "Learn More",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_NjBQ7b": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C98BF17B-B145-4877-932A-6BE33E5B47BC.png",
+            "title": "Citizenship by Descent",
+            "text": "Secure citizenship through your family heritage.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/pages\/citizenship-by-descent",
+            "button_text": "Learn More",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#2f3841",
+            "opacity": 50
+          }
+        },
+        "promotion_M3Ki4b": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3B1F9C7E-EC51-45A9-8CBE-2F72217F9030.webp",
+            "title": "Visa Assistance Packages",
+            "text": "For individuals seeking support with specific visa applications.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/pages\/visa-assistance-packages",
+            "button_text": "Learn More",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#2f3841",
+            "opacity": 60
+          }
+        },
+        "promotion_VftVGW": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/135BDB3C-B212-4564-9B39-83655592D651.webp",
+            "title": "Business Setup and Banking Solutions",
+            "text": "Assisting with business establishment and secure financial structures.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/pages\/business-setup-and-banking-solutions",
+            "button_text": "Learn More",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#121212",
+            "opacity": 30
+          }
+        },
+        "promotion_WNnh34": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/D4BCB625-29D3-4E03-BD5F-7FAA74E9FBA0.webp",
+            "title": "Property Investment",
+            "text": "For clients interested in purchasing investment properties abroad.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/pages\/property-investment",
+            "button_text": "Learn More",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#2f3841",
+            "opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "promotion_DBmmH4",
+        "promotion_NjBQ7b",
+        "promotion_M3Ki4b",
+        "promotion_VftVGW",
+        "promotion_WNnh34"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "section_columns": 3,
+        "text_alignment": "top-left"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_promo_grid_Be4nm7"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {}
+    },
+    "dynamic_image_with_text_9aLNFD": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "We’ve crafted a streamlined three-step process to guide you through your journey:",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Step 1: Free Initial Screening",
+        "subheading": "<p>Start with a free 30-minute session to discuss your goals and gather key information. This helps us understand your needs and determine the best course of action for your residency, tax planning, or business setup.<\/p><p><em>Call to Action: [Book Your Free Screening]<\/em><\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "dynamic_image_with_text_M3KXKe": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Step 2: $500 Paid Consultation",
+        "subheading": "<p>Following the free consultation, this 30-minute session offers detailed advice and a customised action plan tailored to your unique situation. We review your information beforehand to ensure the session is focused and actionable.<\/p><p><em>Call to Action: [Learn More About the Consultation]<\/em><\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "dynamic_image_with_text_EXzM6C": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Step 3: Action Plan & Implementation",
+        "subheading": "<p>After the paid consultation, we offer a range of specialised services to help you achieve your goals, including dual residency planning, tax optimisation, business setup, and more. These services are designed to provide comprehensive support based on your customised plan.<\/p><p><em>Call to Action: [Contact Us to Get Started]<\/em><\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_image_with_text_9aLNFD",
+    "dynamic_image_with_text_M3KXKe",
+    "dynamic_image_with_text_EXzM6C"
+  ]
+}

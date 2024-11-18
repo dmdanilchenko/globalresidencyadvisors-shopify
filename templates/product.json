@@ -17,7 +17,26 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {}
+        },
+        "calpal_calendly_integration_app_block_pRL7bW": {
+          "type": "shopify:\/\/apps\/calpal-calendly-integration\/blocks\/app-block\/a8aa0544-ffd7-4753-8830-931780ec2b8e",
+          "settings": {
+            "meeting_link": "https:\/\/calendly.com\/johny-thegra\/assistant",
+            "button_text": "Book Now",
+            "color": "#ffffff",
+            "bg_color": "#d8a374",
+            "button_width": "100%",
+            "border_radius": "0",
+            "button_alignment": "none",
+            "text_align": "center",
+            "hover_color_change": "off",
+            "hover_background_color": "transparent",
+            "hover_text_color": "transparent",
+            "close_cross_color": "#FFFFFF",
+            "button_font_family": "none"
+          }
         },
         "description": {
           "type": "description",
@@ -25,12 +44,15 @@
         },
         "form": {
           "type": "form",
+          "disabled": true,
           "settings": {
-            "enable_local_pickup": true
+            "enable_local_pickup": true,
+            "show_gift_card_recipient_form": false
           }
         },
         "share": {
           "type": "share",
+          "disabled": true,
           "settings": {}
         }
       },
@@ -39,6 +61,7 @@
         "vendor",
         "rating",
         "price",
+        "calpal_calendly_integration_app_block_pRL7bW",
         "description",
         "form",
         "share"

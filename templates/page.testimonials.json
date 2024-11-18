@@ -1,0 +1,74 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {}
+    },
+    "dynamic_testimonials_wUAEke": {
+      "type": "dynamic-testimonials",
+      "blocks": {
+        "testimonial_ihWiHr": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9B9CFCA2-6836-46A7-B345-B4478DBF3CCE.webp",
+            "star_rating": "0",
+            "text": "<p><em><strong>“These guys made the whole process of setting up my business so much easier than I expected. From the first call, I knew I was in good hands. They took care of everything. Cheers.”<\/strong><\/em><\/p>",
+            "author": ""
+          }
+        },
+        "testimonial_nAmkhV": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9B9CFCA2-6836-46A7-B345-B4478DBF3CCE.webp",
+            "star_rating": "0",
+            "text": "<p><em><strong>“I had no idea where to start with my business setup, but this team just jumped in and handled everything. I didn’t have to stress at all. They were super responsive and really knew their stuff. It’s been a great experience!”<\/strong><\/em><\/p>",
+            "author": ""
+          }
+        },
+        "testimonial_DHQY7W": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9B9CFCA2-6836-46A7-B345-B4478DBF3CCE.webp",
+            "star_rating": "0",
+            "text": "<p><em><strong>“I was a bit hesitant about moving to Paraguay, but Global Residency Advisors team made the whole residency process so simple. They handled all the paperwork, and it was much easier than I thought. I’m now happily settled here thanks to their help.”<\/strong><\/em><\/p>",
+            "author": ""
+          }
+        },
+        "testimonial_ARxgyz": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9B9CFCA2-6836-46A7-B345-B4478DBF3CCE.webp",
+            "star_rating": "0",
+            "text": "<p><em><strong>“Investing in property abroad felt secure with their guidance. They helped me find the perfect opportunity, and the entire process went smoothly from start to finish. I’m very happy with my investment.”<\/strong><\/em><\/p>",
+            "author": ""
+          }
+        },
+        "testimonial_BxqT6b": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9B9CFCA2-6836-46A7-B345-B4478DBF3CCE.webp",
+            "star_rating": "0",
+            "text": "<p><em><strong>“The team made the process of applying for the Australian Working Holiday Visa straightforward and stress-free. Everything was explained clearly, I got my visa sorted in no time!”<\/strong><\/em><\/p>",
+            "author": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_ihWiHr",
+        "testimonial_nAmkhV",
+        "testimonial_DHQY7W",
+        "testimonial_ARxgyz",
+        "testimonial_BxqT6b"
+      ],
+      "settings": {
+        "title": "",
+        "image_crop": "circle",
+        "text_size": "medium"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_testimonials_wUAEke"
+  ]
+}

@@ -24,9 +24,17 @@
         },
         "rich_text_4whb7E": {
           "type": "rich_text",
+          "disabled": true,
           "settings": {
             "title": "Contact us",
-            "text": "<p>Threadblue LLC, 30 N Gould St ste r, Sheridan Wyoming 82801, United States<\/p><p>+17722899625<\/p><p>Contact@CrossBorderCareers.com<\/p>"
+            "text": ""
+          }
+        },
+        "rich_text_F4TJbT": {
+          "type": "rich_text",
+          "settings": {
+            "title": "Disclaimer",
+            "text": "<p>This web page is intended for general informational purposes only. The content provided does not constitute legal, financial, or immigration advice and should not be relied upon as such. Immigration laws, requirements, and procedures can change over time and may vary depending on individual circumstances. We strongly recommend consulting with a qualified legal or immigration professional before making any decisions or taking any actions based on this information. We are not responsible for any outcomes arising from its use or any errors and omissions.<\/p>"
           }
         }
       },
@@ -34,7 +42,8 @@
         "static-footer-0",
         "static-footer-1",
         "social_accounts_mx7Lqr",
-        "rich_text_4whb7E"
+        "rich_text_4whb7E",
+        "rich_text_F4TJbT"
       ],
       "settings": {
         "show_follow_on_shop": true,

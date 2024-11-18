@@ -1,0 +1,39 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {}
+    },
+    "pxs_image_with_text_overlay_7yWwGL": {
+      "type": "pxs-image-with-text-overlay",
+      "settings": {
+        "section_height": "medium",
+        "image": "shopify:\/\/shop_images\/1B897E9C-0EF9-4928-9A2C-7CF74F72B100.webp",
+        "title": "Coming Soon",
+        "text": "<p><strong>Our blog and news updates will be live soon – stay tuned!<\/strong><\/p>",
+        "content_position": "center-center",
+        "color": "#ffffff",
+        "overlay_background": "#121212",
+        "overlay_opacity": 50,
+        "link": "",
+        "button_text": ""
+      }
+    },
+    "dynamic_blog_posts_bV9Vpj": {
+      "type": "dynamic-blog-posts",
+      "disabled": true,
+      "settings": {
+        "title": "Blog posts",
+        "blog": "",
+        "show_date": true,
+        "show_author": false,
+        "show_excerpt": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "pxs_image_with_text_overlay_7yWwGL",
+    "dynamic_blog_posts_bV9Vpj"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {}
+    },
+    "dynamic_image_with_text_RHa8gg": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/A13E572D-80A1-41B0-9139-E1F98CEC677C.webp",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Step 1: Book Initial Free Consultation Now",
+        "subheading": "<p>Let’s discuss your goals for securing a citizenship by descent. In just 30 minutes, we’ll gather the key information and ensure you’re on the right track before moving on to a detailed, paid consultation.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Book Now",
+        "button_link": "shopify:\/\/products\/free-initial-screening-1"
+      }
+    },
+    "dynamic_image_with_text_wfVyQV": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/A13E572D-80A1-41B0-9139-E1F98CEC677C.webp",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Step 2: Feedback Consultation",
+        "subheading": "<p>Finished with your initial screening? It’s time to book your feedback consultation with a professional for $150 USD. Receive expert advice based on your information and move forward with a clear plan for your visa application.<\/p>",
+        "text_alignment": "left",
+        "button_label": "",
+        "button_link": "shopify:\/\/products\/feedback-consultation-visa"
+      }
+    },
+    "dynamic_image_with_text_hQ4EnM": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/A13E572D-80A1-41B0-9139-E1F98CEC677C.webp",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Step 3: Start Your Process",
+        "subheading": "<p>Now that you’ve completed your consultations, it’s time to take the next step. Begin the full process with expert guidance and document preparation.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_image_with_text_RHa8gg",
+    "dynamic_image_with_text_wfVyQV",
+    "dynamic_image_with_text_hQ4EnM"
+  ]
+}
