@@ -3,9 +3,77 @@
     "main": {
       "type": "page",
       "settings": {}
+    },
+    "dynamic_image_with_text_nJ7xR4": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/374F69DE-DC7C-4F09-906B-5E2FC7F80B9A.webp",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Mission",
+        "subheading": "<p>Our mission is to empower individuals and businesses with personalised solutions for global mobility, tax optimisation, and strategic residency. We simplify complex processes, enabling our clients to confidently achieve their international goals.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "dynamic_image_with_text_cNWVe3": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/D5CB2B07-483C-412C-94E3-D75C7257224D.webp",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Values",
+        "subheading": "<p>• <strong>Expertise<\/strong>: We offer extensive knowledge and firsthand experience in global residency, citizenship, and business setup.<\/p><p>• <strong>Transparency<\/strong>: Clear, honest communication at every step—no hidden fees or surprises.<\/p><p>• <strong>Personalisation<\/strong>: Customised strategies tailored to each client’s specific needs and goals.<\/p><p>• <strong>Commitment<\/strong>: From consultation to implementation, we provide full support, ensuring a smooth process<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "dynamic_image_with_text_e3BYGy": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/778CE126-9852-45D7-A7D2-595A28F69DFC.webp",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Our Story",
+        "subheading": "<p>Our company was founded by professionals with firsthand experience navigating global mobility, tax planning, and business setups. Having lived and worked in various countries and industries, we’ve successfully managed international relocations, optimised tax strategies, and established businesses. We aim to share this expertise with our clients, simplifying the complex processes involved in global relocation and financial strategy.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "dynamic_image_with_text_8bGFtM": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/33A51A7E-C489-4F60-A01D-5371F935610E.webp",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Expertise",
+        "subheading": "<p>Our team has extensive experience in:<\/p><p>• <strong>Residency & Citizenship<\/strong>: We guide clients through securing the right visa, achieving long-term residency, or obtaining citizenship based on their needs.<\/p><p>• <strong>Tax Optimisation<\/strong>: We develop customised tax strategies to minimise liabilities and maximise benefits.<\/p><p>• <strong>Property Investment<\/strong>: We provide expert advice on wise investments in key global markets, focusing on maximising returns.<\/p><p>• <strong>Business & Banking Setup<\/strong>: We offer insights and assistance in establishing secure banking and business structures in favourable jurisdictions.<\/p><p>Having worked closely with professionals in each of these fields, we’re equipped to deliver well-rounded, practical solutions for your global needs.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "dynamic_image_with_text_nJ7xR4",
+    "dynamic_image_with_text_cNWVe3",
+    "dynamic_image_with_text_e3BYGy",
+    "dynamic_image_with_text_8bGFtM"
   ]
 }

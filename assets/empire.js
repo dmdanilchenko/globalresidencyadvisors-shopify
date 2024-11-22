@@ -25487,11 +25487,13 @@ class Forms {
     this.$el.on('focus.forms', this.fieldSelector, this._toggleFilled);
     this.$el.on('blur.forms', this.fieldSelector, this._toggleFilled);
     this._checkFilled();
+    setTimeout(()=>this._checkFilled(), 1000); //Additional check for autofilled forms
   }
   unload() {
     this.$el.off('.forms');
   }
   _checkFilled() {
+      console.log("called");
     this.$el.find(this.fieldSelector).each((i, el) => {
       if (jquery_default()(el).hasClass(this.filledClass)) return;
       this._toggleFilled(null, el);

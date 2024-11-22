@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {}
+    },
+    "dynamic_rich_text_YXGz4H": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "width": "regular",
+        "title": "Step 1: Book Free Initial Screening",
+        "text": "<p><\/p><p>Our free 30-minute consultation is designed to understand your specific situation and goals for securing temporary residency in Paraguay. During this session, we will gather essential information about your needs, timeline, and preferences. This allows us to take detailed notes and fully prepare for your next steps, ensuring that the advice we provide is relevant and tailored to you.<\/p><p>We will:<\/p><p>• Assess your eligibility for Paraguay residency.<\/p><p>• Understand your goals and any specific requirements.<\/p><p>• Identify potential challenges and opportunities unique to your situation.<\/p><p>This detailed information will be used to create a focused and personalised action plan, which we’ll go over during the paid consultation. This helps streamline the process, saving time and ensuring we provide accurate, actionable advice.<\/p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_image_with_text_bjGcbM": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Step 1: Free Initial Screening",
+        "subheading": "<p>Our free 30-minute consultation is designed to understand your specific situation and goals for securing temporary residency in Paraguay. During this session, we will gather essential information about your needs, timeline, and preferences. This allows us to take detailed notes and fully prepare for your next steps, ensuring that the advice we provide is relevant and tailored to you.<\/p><p>We will:<\/p><p>• Assess your eligibility for Paraguay residency.<\/p><p>• Understand your goals and any specific requirements.<\/p><p>• Identify potential challenges and opportunities unique to your situation.<\/p><p>This detailed information will be used to create a focused and personalised action plan, which we’ll go over during the paid consultation. This helps streamline the process, saving time and ensuring we provide accurate, actionable advice.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Book Now",
+        "button_link": "\/cart"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_rich_text_YXGz4H",
+    "dynamic_image_with_text_bjGcbM"
+  ]
+}

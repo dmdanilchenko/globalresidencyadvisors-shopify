@@ -1,0 +1,156 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {}
+    },
+    "dynamic_image_with_text_ehihjR": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/A13E572D-80A1-41B0-9139-E1F98CEC677C.webp",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Step 1: Book Initial Free Consultation Now",
+        "subheading": "<p>Let’s discuss your business and banking setup goals. In just 30 minutes, we’ll gather key details and ensure you’re on the right path before moving on to a detailed, paid consultation.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Book Now",
+        "button_link": "shopify:\/\/products\/free-initial-screening-1"
+      }
+    },
+    "dynamic_image_with_text_WUYKVa": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/A13E572D-80A1-41B0-9139-E1F98CEC677C.webp",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Step 2: Feedback Consultation",
+        "subheading": "<p>Finished with your initial screening? It’s time to book your feedback consultation with a professional for $150 USD. Receive expert advice based on your goals and take the next step toward setting up your business and banking structure.<\/p>",
+        "text_alignment": "left",
+        "button_label": "",
+        "button_link": "shopify:\/\/products\/feedback-consultation-business-and-banking"
+      }
+    },
+    "dynamic_image_with_text_FiN3rd": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/A13E572D-80A1-41B0-9139-E1F98CEC677C.webp",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Step 3: Start Your Process",
+        "subheading": "<p>Now that you’ve completed your consultations, it’s time to take the next step. Begin the full process with expert guidance and document preparation.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "dynamic_promo_grid_QDxfrh": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "promotion_3Fi6YQ": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2A01BA27-B22A-4D8B-9652-9010BBC64A0E.jpg",
+            "title": "Business and Banking in Paraguay",
+            "text": "Discover high-growth potential in Paraguay’s emerging property market. With affordable options and growing demand, it’s the perfect time to invest in Paraguay.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#121212",
+            "opacity": 50
+          }
+        },
+        "promotion_NWCBxL": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/71EBA47B-84F6-490A-AFAE-280D0A3DF3C3.jpg",
+            "title": "Business and Banking in Mexico",
+            "text": "Invest in Mexico’s thriving property market, offering everything from beachfront villas to commercial real estate in bustling urban centers.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#121212",
+            "opacity": 50
+          }
+        },
+        "promotion_nwt3Q4": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/08E0F9AA-EDF3-43F7-A9CD-CA32BAA509D3.webp",
+            "title": "Business and Banking in UAE",
+            "text": "Take advantage of the UAE’s booming real estate market. From luxury apartments to prime commercial spaces, the UAE offers exceptional investment opportunities.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#121212",
+            "opacity": 50
+          }
+        },
+        "promotion_Xx6Ptf": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5159D2BC-2E2A-4147-BADB-43F1FA775011.webp",
+            "title": "Business and Banking in Argentina",
+            "text": "Explore investment opportunities in Argentina’s diverse property market. From urban apartments to countryside retreats, Argentina offers something for every investor.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#121212",
+            "opacity": 50
+          }
+        },
+        "promotion_Mc7GiT": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8AF25E9C-DA02-45F4-9F82-556A9C028B32.webp",
+            "title": "Business and Banking in Armenia",
+            "text": "Secure your future with property investment in Armenia, a country with growing potential and strategic location between Europe and Asia.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#121212",
+            "opacity": 60
+          }
+        }
+      },
+      "block_order": [
+        "promotion_3Fi6YQ",
+        "promotion_NWCBxL",
+        "promotion_nwt3Q4",
+        "promotion_Xx6Ptf",
+        "promotion_Mc7GiT"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "section_columns": 3,
+        "text_alignment": "top-left"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_image_with_text_ehihjR",
+    "dynamic_image_with_text_WUYKVa",
+    "dynamic_image_with_text_FiN3rd",
+    "dynamic_promo_grid_QDxfrh"
+  ]
+}

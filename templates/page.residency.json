@@ -1,0 +1,343 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {}
+    },
+    "dynamic_image_with_text_Knyxwy": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/A13E572D-80A1-41B0-9139-E1F98CEC677C.webp",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Step 1: Book Initial Free Consultation Now",
+        "subheading": "<p>Let’s discuss your goals for residency. In just 30 minutes, we’ll gather the key info and make sure you’re on the right path before moving on to a detailed, paid consultation.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Book Now",
+        "button_link": "shopify:\/\/products\/free-initial-screening-1"
+      }
+    },
+    "dynamic_image_with_text_cDLXKN": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/A13E572D-80A1-41B0-9139-E1F98CEC677C.webp",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Step 2: Feedback Consultation",
+        "subheading": "<p>Finished with your initial screening? It’s time to book your feedback consultation with a professional for $150 USD. Receive expert advice based on your information and move forward with a clear plan for your residency journey.<\/p>",
+        "text_alignment": "left",
+        "button_label": "",
+        "button_link": "shopify:\/\/products\/feedback-consultation-residency-citizenship"
+      }
+    },
+    "dynamic_image_with_text_qnGHJQ": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/A13E572D-80A1-41B0-9139-E1F98CEC677C.webp",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Step 3: Start Your Process",
+        "subheading": "<p>Now that you’ve completed your consultations, it’s time to take the next step. Begin the full process with expert guidance and document preparation.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "dynamic_promo_grid_QDxfrh": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "promotion_3Fi6YQ": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EA6BB91A-B477-49C3-A46F-E8B3082985F4.webp",
+            "title": "Paraguay",
+            "text": "Experience fast-track residency in Paraguay with minimal requirements and a flexible lifestyle option.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#121212",
+            "opacity": 50
+          }
+        },
+        "promotion_NWCBxL": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02F05786-5CA8-4BE8-9411-ED87CD980B55.webp",
+            "title": "Mexico",
+            "text": "Secure a temporary residency in Mexico and enjoy its vibrant culture and thriving economy.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#121212",
+            "opacity": 50
+          }
+        },
+        "promotion_nwt3Q4": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/236A6D02-398B-4661-91A4-74E96BA3643F.webp",
+            "title": "UAE",
+            "text": "Explore temporary residency in the UAE, the gateway to business and financial opportunities in the Middle East.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#121212",
+            "opacity": 30
+          }
+        },
+        "promotion_Xx6Ptf": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/D9F1F840-FCFA-4EB7-A6EB-0C8D2FC6C1FD.webp",
+            "title": "Argentina",
+            "text": "Relocate to Argentina with a temporary residency, perfect for experiencing South America’s rich culture and opportunities.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#121212",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion_3Fi6YQ",
+        "promotion_NWCBxL",
+        "promotion_nwt3Q4",
+        "promotion_Xx6Ptf"
+      ],
+      "settings": {
+        "title": "Temporary Residencies",
+        "section_height": "small",
+        "section_columns": 4,
+        "text_alignment": "top-left"
+      }
+    },
+    "dynamic_promo_grid_4djRpr": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "promotion_fPX6Tw": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EA6BB91A-B477-49C3-A46F-E8B3082985F4.webp",
+            "title": "Paraguay",
+            "text": "Establish permanent residency in Paraguay and benefit from one of South America’s most affordable and accessible programs.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#121212",
+            "opacity": 50
+          }
+        },
+        "promotion_GKH8wd": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02F05786-5CA8-4BE8-9411-ED87CD980B55.webp",
+            "title": "Mexico",
+            "text": "Achieve long-term residency in Mexico with a program offering easy access to North America and beyond.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#121212",
+            "opacity": 50
+          }
+        },
+        "promotion_6f7Xt7": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/E91FC6CC-7A0E-42C1-920B-BA56D9C1BCBC.webp",
+            "title": "Armenia",
+            "text": "Enjoy Armenia’s growing economy and strategic location with a permanent residency tailored to your needs.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#121212",
+            "opacity": 40
+          }
+        },
+        "promotion_qpc69f": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/D9F1F840-FCFA-4EB7-A6EB-0C8D2FC6C1FD.webp",
+            "title": "Argentina",
+            "text": "Make Argentina your permanent home with a residency option that opens the door to a diverse and vibrant lifestyle.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#121212",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion_fPX6Tw",
+        "promotion_GKH8wd",
+        "promotion_6f7Xt7",
+        "promotion_qpc69f"
+      ],
+      "settings": {
+        "title": "Permanent residencies",
+        "section_height": "small",
+        "section_columns": 4,
+        "text_alignment": "top-left"
+      }
+    },
+    "dynamic_promo_grid_BggbgE": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "promotion_pHqwaB": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EA6BB91A-B477-49C3-A46F-E8B3082985F4.webp",
+            "title": "Paraguay",
+            "text": "Obtain citizenship in Paraguay and enjoy visa-free access to a growing number of countries worldwide.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/paraguay-citizenship",
+            "button_text": "Learn More",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#121212",
+            "opacity": 50
+          }
+        },
+        "promotion_QVtrPD": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02F05786-5CA8-4BE8-9411-ED87CD980B55.webp",
+            "title": "Mexico",
+            "text": "Gain Mexican citizenship and benefit from a diverse culture, economic opportunities, and global mobility.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/mexico-citizenship",
+            "button_text": "Learn More",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#121212",
+            "opacity": 50
+          }
+        },
+        "promotion_qyBrtN": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/E91FC6CC-7A0E-42C1-920B-BA56D9C1BCBC.webp",
+            "title": "Armenia",
+            "text": "Acquire Armenian citizenship and enjoy dual citizenship benefits with easy access to Europe and Asia.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/armenia-citizenship",
+            "button_text": "Learn More",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#121212",
+            "opacity": 40
+          }
+        },
+        "promotion_yABbdV": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/D9F1F840-FCFA-4EB7-A6EB-0C8D2FC6C1FD.webp",
+            "title": "Argentina",
+            "text": "Pursue Argentine citizenship and unlock opportunities across South America and beyond.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/argentina-citizenship",
+            "button_text": "Learn More",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#121212",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion_pHqwaB",
+        "promotion_QVtrPD",
+        "promotion_qyBrtN",
+        "promotion_yABbdV"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Citizenships",
+        "section_height": "small",
+        "section_columns": 4,
+        "text_alignment": "top-left"
+      }
+    },
+    "dynamic_promo_grid_TBHGwf": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "promotion_7LG9pe": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9E3FC71A-9D6D-4ACE-B4DA-4C7DEF07A20B.webp",
+            "title": "Estonia",
+            "text": "Go digital with Estonia’s innovative e-residency program, perfect for entrepreneurs seeking a global business hub.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#121212",
+            "opacity": 40
+          }
+        },
+        "promotion_tDpHth": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/84F3F98E-A4FC-40E0-81E9-4C5703CF3BC9.webp",
+            "title": "Palau",
+            "text": "Join Palau’s e-residency and gain access to a digital identity that offers flexibility for modern global entrepreneurs.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#121212",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion_7LG9pe",
+        "promotion_tDpHth"
+      ],
+      "settings": {
+        "title": "E-Residencies",
+        "section_height": "small",
+        "section_columns": 4,
+        "text_alignment": "top-left"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_image_with_text_Knyxwy",
+    "dynamic_image_with_text_cDLXKN",
+    "dynamic_image_with_text_qnGHJQ",
+    "dynamic_promo_grid_QDxfrh",
+    "dynamic_promo_grid_4djRpr",
+    "dynamic_promo_grid_BggbgE",
+    "dynamic_promo_grid_TBHGwf"
+  ]
+}

@@ -8,7 +8,7 @@
         "static-footer-0": {
           "type": "menu",
           "settings": {
-            "menu": "main-menu"
+            "menu": "footer"
           }
         },
         "static-footer-1": {
@@ -17,17 +17,40 @@
             "title": "Subscribe",
             "text": ""
           }
+        },
+        "social_accounts_mx7Lqr": {
+          "type": "social_accounts",
+          "settings": {}
+        },
+        "rich_text_4whb7E": {
+          "type": "rich_text",
+          "disabled": true,
+          "settings": {
+            "title": "Contact us",
+            "text": ""
+          }
+        },
+        "rich_text_F4TJbT": {
+          "type": "rich_text",
+          "settings": {
+            "title": "Disclaimer",
+            "text": "<p>This web page is intended for general informational purposes only. The content provided does not constitute legal, financial, or immigration advice and should not be relied upon as such. Immigration laws, requirements, and procedures can change over time and may vary depending on individual circumstances. We strongly recommend consulting with a qualified legal or immigration professional before making any decisions or taking any actions based on this information. We are not responsible for any outcomes arising from its use or any errors and omissions.<\/p>"
+          }
         }
       },
       "block_order": [
         "static-footer-0",
-        "static-footer-1"
+        "static-footer-1",
+        "social_accounts_mx7Lqr",
+        "rich_text_4whb7E",
+        "rich_text_F4TJbT"
       ],
       "settings": {
+        "show_follow_on_shop": true,
         "payment_icons": true,
         "show_locale_selector": true,
         "show_currency_selector": true,
-        "additional_menu": "footer"
+        "additional_menu": ""
       }
     }
   },

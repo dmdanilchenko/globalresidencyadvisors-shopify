@@ -56,15 +56,22 @@
     "product_grid_show_atc": "always",
     "product_grid_show_second_image": true,
     "product_grid_image_style": "natural",
+    "social_email": "info@globalresidencyadvisors.com",
+    "social_facebook": "",
+    "social_instagram": "https:\/\/www.instagram.com\/johnythegra\/#",
     "social_linkedin": "",
+    "social_tiktok": "",
     "social_tumblr": "",
     "social_vimeo": "",
-    "social_youtube": "",
+    "social_whatsapp": "http:\/\/wa.me\/17722899625",
+    "social_x": "https:\/\/x.com\/johnythegra",
+    "social_youtube": "https:\/\/www.youtube.com\/@johnythegra",
     "favicon": "shopify:\/\/shop_images\/Image_1-10-2024_at_9.34_AM.jpg",
     "enable_checkout_lock_icon": false,
     "continue_shopping_url": "shopify:\/\/collections\/all",
     "continue_url_cart": true,
     "continue_url_404": true,
+    "enable_back_to_top_button": false,
     "product_show_sku": false,
     "product_social_sharing": false,
     "product_grid_show_quickshop": "always",
@@ -237,7 +244,33 @@
         }
       }
     },
-    "content_for_index": []
+    "content_for_index": [],
+    "blocks": {
+      "11259993243251179853": {
+        "type": "shopify:\/\/apps\/calpal-calendly-integration\/blocks\/app-embed\/a8aa0544-ffd7-4753-8830-931780ec2b8e",
+        "disabled": false,
+        "settings": {
+          "meeting_link": "https:\/\/calendly.com\/johny-thegra\/assistant",
+          "button_text": "Book Now",
+          "color": "#ffffff",
+          "bg_color": "#135971",
+          "button_style": "floating",
+          "button_position": "bottom_right",
+          "text_align": "center",
+          "hover_effect": "on",
+          "hover_color_change": "off",
+          "hover_background_color": "rgba(0,0,0,0)",
+          "hover_text_color": "rgba(0,0,0,0)",
+          "close_cross_color": "#ffffff",
+          "button_font_family": "none",
+          "button_icon": "none",
+          "button_icon_color": "#ffffff",
+          "icon_size": "22",
+          "border_radius": "25",
+          "button_padding": "15px 30px"
+        }
+      }
+    }
   },
   "presets": {
     "Supply": {

@@ -45,6 +45,10 @@
               for="customer_password">
               {{ 'customers.forms.password' | t }}
             </label>
+            <button type="button" class="form-action--see-password">
+              <span class="show">{% render 'icon-eye' %}</span>
+              <span class="hide">{% render 'icon-eye-slash' %}</span>
+            </button>
           </div>
         {% endif %}
 
