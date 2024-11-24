@@ -5,7 +5,7 @@
       {{ page.title }}
     </h1>
   </header>
-  {% form 'contact' %}
+  {% form 'contact', novalidate: 'novalidate' %}
 
     {% if page.content != blank %}
       <div class="page-content rte">
@@ -53,7 +53,8 @@
             id="contact_name"
             name="contact[name]"
             type="text"
-            value="{{ value }}">
+            value="{{ value }}"
+            required>
 
           <label class="form-field-title" for="contact_name">
             {{ 'contact.form.name' | t }}
@@ -74,7 +75,8 @@
             type="text"
             value="{{ value }}"
             autocorrect="off"
-            autocapitalize="off">
+            autocapitalize="off"
+            required>
 
           <label class="form-field-title" for="contact_email">
             {{ 'contact.form.email' | t }}
@@ -95,7 +97,8 @@
           id="contact_phone"
           name="contact[phone]"
           type="tel"
-          value="{{ value }}">
+          value="{{ value }}"
+          required>
 
         <label class="form-field-title" for="contact_phone">
           {{ 'contact.form.phone' | t }}
@@ -119,6 +122,7 @@
           "
           id="contact_message"
           name="contact[message]"
+          required
         >
           {{- value -}}
         </textarea>
