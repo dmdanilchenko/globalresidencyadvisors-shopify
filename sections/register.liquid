@@ -1,133 +1,121 @@
 <section class="account-page account-page-register" data-template-account>
-  {%- if customer -%}
-    <header class="account-page-masthead">
-      <h1>Thank you for registering an account.</h1>
-      <p>You will be redirected to Home page in 5 second.</p>
-    </header>
-    <script>
-        setTimeout(function () {
-            window.location.href = "{{ routes.root_url }}";
-        }, 5000);
-    </script>
-  {%- else -%}
-    <header class="account-page-masthead">
-      <h1 class="account-page-title">
-        {{ 'customers.register.title' | t }}
-      </h1>
-    </header>
+  <header class="account-page-masthead">
+    <h1 class="account-page-title">
+      {{ 'customers.register.title' | t}}
+    </h1>
+  </header>
 
-    <article class="account-page-content">
-      {% form 'create_customer', autocomplete: 'one-time-code', return_to: routes.account_register_url %}
+  <article class="account-page-content">
+    {% form 'create_customer', autocomplete: 'one-time-code' %}
 
-        {% assign has_message = false %}
+      {% assign has_message = false %}
 
-        {% if form.errors != blank %}
-          {% assign has_message = true %}
-          {% assign message_type = 'error' %}
-        {% endif %}
+      {% if form.errors != blank %}
+        {% assign has_message = true %}
+        {% assign message_type = 'error' %}
+      {% endif %}
 
-        {% if form.posted_successfully? %}
-          {% assign has_message = true %}
-          {% assign message_type = 'success' %}
-        {% endif %}
+      {% if form.posted_successfully? %}
+        {% assign has_message = true %}
+        {% assign message_type = 'success' %}
+      {% endif %}
 
-        {% if has_message %}
-          <div class="account-message form-message message--{{ message_type }}">
-            {% case message_type %}
-              {% when 'success' %}
-                <p>
-                  {{ 'customers.register.success' | t }}
-                </p>
-              {% when 'error' %}
-                {{ form.errors | default_errors }}
-            {% endcase %}
-          </div>
-        {% endif %}
+      {% if has_message %}
+        <div class="account-message form-message message--{{ message_type }}">
+          {% case message_type %}
+            {% when 'success' %}
+              <p>
+                {{ 'customers.register.success' | t }}
+              </p>
+            {% when 'error' %}
+              {{ form.errors | default_errors }}
+          {% endcase %}
+        </div>
+      {% endif %}
 
-        <div class="form-fields-columns">
-          <div class="form-field form-field--half">
-            <input
-              type="text"
-              class="form-field-input form-field-text"
-              id="register_first_name"
-              name="customer[first_name]"
-              autocapitalize="words"
-              autofocus
-              {% if form.first_name %}value="{{ form.first_name }}"{% endif %}>
+      <div class="form-fields-columns">
+        <div class="form-field form-field--half">
+          <input
+            type="text"
+            class="form-field-input form-field-text"
+            id="register_first_name"
+            name="customer[first_name]"
+            autocapitalize="words"
+            autofocus
+            {% if form.first_name %}value="{{ form.first_name }}"{% endif %}>
 
-            <label
-              class="form-field-title"
-              for="register_first_name">
-              {{ 'customers.forms.first_name' | t }}
-            </label>
-          </div>
-
-          <div class="form-field form-field--half">
-            <input
-              type="text"
-              class="form-field-input form-field-text"
-              id="register_last_name"
-              name="customer[last_name]"
-              autocapitalize="words"
-              {% if form.last_name %}value="{{ form.last_name }}"{% endif %}>
-
-            <label
-              class="form-field-title"
-              for="register_last_name">
-              {{ 'customers.forms.last_name' | t }}
-            </label>
-          </div>
-
-          <div class="form-field form-field--half">
-            <input
-              type="text"
-              class="form-field-input form-field-text {% if form.errors contains 'email' %}form-field-error{% endif %}"
-              id="register_email"
-              name="customer[email]"
-              autocorrect="off"
-              autocapitalize="off"
-              {% if form.email %}value="{{ form.email }}"{% endif %}>
-
-            <label
-              class="form-field-title"
-              for="register_email">
-              {{ 'customers.forms.email' | t }}
-            </label>
-          </div>
-
-          <div class="form-field form-field--half">
-            <input
-              type="password"
-              class="form-field-input form-field-text {% if form.errors contains 'password' %}form-field-error{% endif %}"
-              id="register_password"
-              name="customer[password]">
-
-            <label
-              class="form-field-title"
-              for="register_password">
-              {{ 'customers.forms.password' | t }}
-            </label>
-            <button type="button" class="form-action--see-password">
-              <span class="show">{% render 'icon-eye' %}</span>
-              <span class="hide">{% render 'icon-eye-slash' %}</span>
-            </button>
-          </div>
+          <label
+            class="form-field-title"
+            for="register_first_name">
+            {{ 'customers.forms.first_name' | t }}
+          </label>
         </div>
 
-        <div class="form-action-row">
-          <button class="button-primary form-action--submit" type="submit">
-            {{ 'customers.register.submit' | t }}
-          </button>
+        <div class="form-field form-field--half">
+          <input
+            type="text"
+            class="form-field-input form-field-text"
+            id="register_last_name"
+            name="customer[last_name]"
+            autocapitalize="words"
+            {% if form.last_name %}value="{{ form.last_name }}"{% endif %}>
 
-          <div class="form-action-row--helper">
+          <label
+            class="form-field-title"
+            for="register_last_name">
+            {{ 'customers.forms.last_name' | t }}
+          </label>
+        </div>
+
+        <div class="form-field form-field--half">
+          <input
+            type="text"
+            class="form-field-input form-field-text {% if form.errors contains 'email' %}form-field-error{% endif %}"
+            id="register_email"
+            name="customer[email]"
+            autocorrect="off"
+            autocapitalize="off"
+            {% if form.email %}value="{{ form.email }}"{% endif %}>
+
+          <label
+            class="form-field-title"
+            for="register_email">
+            {{ 'customers.forms.email' | t }}
+          </label>
+        </div>
+
+        <div class="form-field form-field--half">
+          <input
+            type="password"
+            class="form-field-input form-field-text {% if form.errors contains 'password' %}form-field-error{% endif %}"
+            id="register_password"
+            name="customer[password]">
+
+          <label
+            class="form-field-title"
+            for="register_password">
+            {{ 'customers.forms.password' | t }}
+          </label>
+          <button type="button" class="form-action--see-password">
+            <span class="show">{% render 'icon-eye' %}</span>
+            <span class="hide">{% render 'icon-eye-slash' %}</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="form-action-row">
+        <button class="button-primary form-action--submit" type="submit">
+          {{ 'customers.register.submit' | t }}
+        </button>
+
+        <div class="form-action-row--helper">
           <span class="form-action-row--helper-item">
             {{ 'customers.register.returning_customer' | t }}
             {{ 'customers.login.sign_in' | t | customer_login_link }}
           </span>
-          </div>
         </div>
+      </div>
 
-      {% endform %}
-    </article>
-  {%- endif -%}
+    {% endform %}
+  </article>
 </section>

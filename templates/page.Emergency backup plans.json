@@ -1,0 +1,73 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {}
+    },
+    "dynamic_promo_grid_Be4nm7": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "promotion_M3Ki4b": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B9E2DCD1-F9E0-442F-9406-75C7A3FC82FA.png",
+            "title": "Basic Backup ($4,000)",
+            "text": "✔ One offshore bank account.\n✔ Secure deposit box.\n✔ BONUS: “Emergency Relocation Checklist” PDF ($99 Value).",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation Now",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#2f3841",
+            "opacity": 50
+          }
+        },
+        "promotion_DBmmH4": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9B3BF822-FFA2-4FF1-A171-3DE0E9B29150.png",
+            "title": "Standard Backup ($8,000)",
+            "text": "✔ Two offshore bank accounts.\n✔ Residency in one country.\n✔ BONUS: “Basic Tax Prep for Relocations” ($199 Value).",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation Now",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#2f3841",
+            "opacity": 50
+          }
+        },
+        "promotion_VftVGW": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C77236F9-5DE3-41AA-952D-FE73BE9186BF.png",
+            "title": "Premium Backup ($15,000)",
+            "text": "✔ Three offshore bank accounts.\n✔ Residency in two countries.\n✔ Advanced tax strategy.\n✔ BONUS: Personalised Property Search Report ($1,000 Value).",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation Now",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#2f3841",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion_M3Ki4b",
+        "promotion_DBmmH4",
+        "promotion_VftVGW"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "section_columns": 3,
+        "text_alignment": "top-left"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_promo_grid_Be4nm7"
+  ]
+}

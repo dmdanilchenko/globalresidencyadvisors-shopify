@@ -4,6 +4,7 @@
 {% endcomment %}
 
 <ul class="account-address-list">
+  <li>{{ address.first_name }} {{ address.last_name }}</li>
   {% if address.company != blank %}
     <li>{{ address.company }}</li>
   {% endif %}

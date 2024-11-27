@@ -284,7 +284,7 @@
   "header": {
     "account": {
       "title": "Mi cuenta",
-      "login": "Ingresar / Registrarse",
+      "login": "Ingresar \/ Registrarse",
       "logout": "Cerrar sesión",
       "welcome": "Hola {{ first_name }}"
     }

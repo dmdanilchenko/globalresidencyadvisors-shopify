@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {}
+    },
+    "dynamic_promo_grid_Be4nm7": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "promotion_M3Ki4b": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3B1F9C7E-EC51-45A9-8CBE-2F72217F9030.webp",
+            "title": "Starter Plan: Global Starter Access $199 (One-Time) + $9.95\/month",
+            "text": "✔ Your Foot in the Door to Global Freedom\n✔ Offshore banking, residency, and tax guides.\n✔ Exclusive updates on new opportunities.\n✔ BONUS: “How to Build Global Wealth” E-Book ($99 Value).\n✔ BONUS: Free 20-Minute Consultation ($150 Value).\n✔ Guarantee: If you don’t find value within 30 days, cancel for a full refund.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation Now",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#2f3841",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion_M3Ki4b"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "section_columns": 1,
+        "text_alignment": "top-left"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_promo_grid_Be4nm7"
+  ]
+}

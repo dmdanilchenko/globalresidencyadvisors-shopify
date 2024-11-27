@@ -280,7 +280,7 @@
   "header": {
     "account": {
       "title": "My Account",
-      "login": "Login / Signup",
+      "login": "Login \/ Signup",
       "logout": "Logout",
       "welcome": "Hello {{ first_name }}"
     }

@@ -7,14 +7,29 @@
     "dynamic_promo_grid_Be4nm7": {
       "type": "dynamic-promo-grid",
       "blocks": {
+        "promotion_M3Ki4b": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3B1F9C7E-EC51-45A9-8CBE-2F72217F9030.webp",
+            "title": "Global Starter Access",
+            "text": "Start your offshore journey for just $199 with essential guides and insider updates.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/pages\/global-starter-access",
+            "button_text": "Learn More",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#2f3841",
+            "opacity": 50
+          }
+        },
         "promotion_DBmmH4": {
           "type": "promotion",
           "settings": {
             "image": "shopify:\/\/shop_images\/4BEDCC9E-4B86-4E04-89E3-455BA04F095F.webp",
-            "title": "Residency Services",
-            "text": "For clients looking to relocate or gain citizenship in a new country",
+            "title": "Personal Residency Solutions",
+            "text": "Secure residency in 1, 2, or 3 countries with tailored solutions that meet your global living goals.",
             "color": "#ffffff",
-            "block_link": "shopify:\/\/pages\/residency-and-citizenship",
+            "block_link": "shopify:\/\/pages\/personal-residency-solutions",
             "button_text": "Learn More",
             "button_style": "primary",
             "show_overlay": false,
@@ -22,44 +37,14 @@
             "opacity": 50
           }
         },
-        "promotion_NjBQ7b": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/C98BF17B-B145-4877-932A-6BE33E5B47BC.png",
-            "title": "Citizenship by Descent",
-            "text": "Secure citizenship through your family heritage.",
-            "color": "#ffffff",
-            "block_link": "shopify:\/\/pages\/citizenship-by-descent",
-            "button_text": "Learn More",
-            "button_style": "primary",
-            "show_overlay": true,
-            "background": "#2f3841",
-            "opacity": 50
-          }
-        },
-        "promotion_M3Ki4b": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3B1F9C7E-EC51-45A9-8CBE-2F72217F9030.webp",
-            "title": "Visa Assistance Packages",
-            "text": "For individuals seeking support with specific visa applications.",
-            "color": "#ffffff",
-            "block_link": "shopify:\/\/pages\/visa-assistance-packages",
-            "button_text": "Learn More",
-            "button_style": "primary",
-            "show_overlay": true,
-            "background": "#2f3841",
-            "opacity": 60
-          }
-        },
         "promotion_VftVGW": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/135BDB3C-B212-4564-9B39-83655592D651.webp",
-            "title": "Business Setup and Banking Solutions",
-            "text": "Assisting with business establishment and secure financial structures.",
+            "image": "shopify:\/\/shop_images\/92A5EC9D-AA64-404D-B481-FEC3572F9A10.png",
+            "title": "Business Offshore Solutions",
+            "text": "Expand your business globally with expert-led setups in top jurisdictions and access to offshore banking.",
             "color": "#ffffff",
-            "block_link": "shopify:\/\/pages\/business-setup-and-banking-solutions",
+            "block_link": "shopify:\/\/pages\/business-offshore-solutions",
             "button_text": "Learn More",
             "button_style": "primary",
             "show_overlay": true,
@@ -70,11 +55,11 @@
         "promotion_WNnh34": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/D4BCB625-29D3-4E03-BD5F-7FAA74E9FBA0.webp",
-            "title": "Property Investment",
-            "text": "For clients interested in purchasing investment properties abroad.",
+            "image": "shopify:\/\/shop_images\/B9E2DCD1-F9E0-442F-9406-75C7A3FC82FA.png",
+            "title": "Emergency Backup Plans",
+            "text": "Prepare for any situation with comprehensive international backup strategies, from banking to property.",
             "color": "#ffffff",
-            "block_link": "shopify:\/\/pages\/property-investment",
+            "block_link": "shopify:\/\/pages\/emergency-backup-plans",
             "button_text": "Learn More",
             "button_style": "primary",
             "show_overlay": true,
@@ -84,16 +69,15 @@
         }
       },
       "block_order": [
-        "promotion_DBmmH4",
-        "promotion_NjBQ7b",
         "promotion_M3Ki4b",
+        "promotion_DBmmH4",
         "promotion_VftVGW",
         "promotion_WNnh34"
       ],
       "settings": {
         "title": "",
         "section_height": "small",
-        "section_columns": 3,
+        "section_columns": 4,
         "text_alignment": "top-left"
       }
     }

@@ -1,0 +1,73 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {}
+    },
+    "dynamic_promo_grid_Be4nm7": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "promotion_M3Ki4b": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/92A5EC9D-AA64-404D-B481-FEC3572F9A10.png",
+            "title": "Basic Business ($3,000)",
+            "text": "✔ Company registration in one jurisdiction.\n✔ Business bank account.\n✔ BONUS: “10 Tax Strategies for Entrepreneurs” E-Book ($199 Value).",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation Now",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#2f3841",
+            "opacity": 50
+          }
+        },
+        "promotion_DBmmH4": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4A6A8253-6681-46A4-BA24-A13F8FF5699F.png",
+            "title": "Standard Business ($7,000)",
+            "text": "✔ Business setup in two jurisdictions.\n✔ Two business bank accounts.\n✔ UAE residency visa.\n✔ BONUS: “Done-for-You EIN & Compliance Guide” ($499 Value).",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation Now",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#2f3841",
+            "opacity": 50
+          }
+        },
+        "promotion_VftVGW": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EE19C561-AAA3-4018-8D3E-E130E2E8077D.png",
+            "title": "Premium Business ($12,000)",
+            "text": "✔ Business setup in three jurisdictions.\n✔ Three business bank accounts.\n✔ Advanced tax planning and concierge support.\n✔ BONUS: Lifetime Annual Compliance Support ($1,000 Value).",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation Now",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#2f3841",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion_M3Ki4b",
+        "promotion_DBmmH4",
+        "promotion_VftVGW"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "section_columns": 3,
+        "text_alignment": "top-left"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_promo_grid_Be4nm7"
+  ]
+}

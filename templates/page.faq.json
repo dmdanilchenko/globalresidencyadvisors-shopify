@@ -7,18 +7,41 @@
     "dynamic-faq": {
       "type": "dynamic-faq",
       "blocks": {
+        "category_FMjn3a": {
+          "type": "category",
+          "settings": {
+            "heading": "Getting Started",
+            "show_category_card": true
+          }
+        },
+        "question_Mp4wn4": {
+          "type": "question",
+          "settings": {
+            "question": "How do I begin with your services?",
+            "answer": "<p>You can start by booking a free consultation through our website. During the session, we’ll discuss your goals and recommend the best service or package for you.<\/p>",
+            "icon": "none"
+          }
+        },
+        "question_Hw3FBw": {
+          "type": "question",
+          "settings": {
+            "question": "What information do I need to provide to get started?",
+            "answer": "<p>For the free consultation, we only need a general idea of your goals. For the paid consultation, you’ll need to provide personal details and any relevant documents based on your chosen service.<\/p>",
+            "icon": "none"
+          }
+        },
         "category_1": {
           "type": "category",
           "settings": {
-            "heading": "General Process",
+            "heading": "General Services",
             "show_category_card": true
           }
         },
         "question_1": {
           "type": "question",
           "settings": {
-            "question": "What can I expect during the free initial consultation?",
-            "answer": "<p>During the 30-minute consultation, we’ll discuss your goals and gather key information to guide you to the right service, whether it’s residency, citizenship, business setup, or property investment.<\/p>",
+            "question": "What does the free consultation include?",
+            "answer": "<p>Our free consultation focuses on understanding your goals and gathering information about your needs. This ensures that our recommendations in the paid consultation are tailored and actionable.<\/p>",
             "icon": "none"
           }
         },
@@ -33,78 +56,107 @@
         "question_3": {
           "type": "question",
           "settings": {
-            "question": "How much does the feedback consultation cost?",
-            "answer": "<p>The feedback consultation costs $500 USD.<\/p>",
+            "question": "What happens after the paid consultation?",
+            "answer": "<p>After the paid consultation, you’ll have a clear plan and access to relevant packages or services to help you achieve your residency, business, or tax planning goals.<\/p>",
+            "icon": "none"
+          }
+        },
+        "question_rd9TaD": {
+          "type": "question",
+          "settings": {
+            "question": "How do I know which package is right for me?",
+            "answer": "<p>During the initial consultation, our team will assess your goals and recommend the package that best suits your needs, whether you’re looking for a single residency or a multi-jurisdiction setup.<\/p>",
+            "icon": "none"
+          }
+        },
+        "question_GXEMLY": {
+          "type": "question",
+          "settings": {
+            "question": "Are your services guaranteed?",
+            "answer": "<p>We offer a 100% money-back guarantee if we are unable to deliver on the promised services due to our oversight (after all required documentation is submitted). Partial refunds apply to undelivered portions of the service.<\/p>",
             "icon": "none"
           }
         },
         "category_2": {
           "type": "category",
           "settings": {
-            "heading": "Services We Offer",
+            "heading": "Residency and Citizenship Packages",
             "show_category_card": true
           }
         },
         "question_4": {
           "type": "question",
           "settings": {
-            "question": "Which countries do you cover?",
-            "answer": "<p>We provide services in several countries, including Paraguay, Argentina, Mexico, the UAE, and Armenia. Each country offers unique benefits for residency, citizenship, business, and property investment.<\/p>",
+            "question": "What is included in a residency package?",
+            "answer": "<p>Each residency package includes assistance with residency applications, offshore bank accounts, and tax consultations tailored to the number of countries chosen in your plan. Premium packages offer advanced strategies and concierge support.<\/p>",
             "icon": "none"
           }
         },
         "question_5": {
           "type": "question",
           "settings": {
-            "question": "Can you assist with multiple services at once?",
-            "answer": "<p>Yes, we can help with multiple services, such as combining residency and business setup, or assisting with both property investment and banking solutions.<\/p>",
+            "question": "How long does it take to complete the residency process?",
+            "answer": "<p>The timeline depends on the country and complexity of your case. We advise completing the process within 12 months to avoid additional charges for extended support.<\/p>",
             "icon": "none"
           }
         },
         "category_3": {
           "type": "category",
           "settings": {
-            "heading": "Residency, Citizenship, and Visa",
+            "heading": "Business and Banking Solutions",
             "show_category_card": true
           }
         },
         "question_7": {
           "type": "question",
           "settings": {
-            "question": "How long does the residency or citizenship process take?",
-            "answer": "<p>The timeline varies by country and individual circumstances. We’ll provide an estimate during your consultation and guide you through each step to keep things moving smoothly.<\/p>",
+            "question": "Can you help me set up a business in multiple countries?",
+            "answer": "<p>Yes! Our Standard and Premium Business Setup packages are designed for clients looking to expand globally, offering multi-jurisdiction registration, business bank accounts, and advanced tax strategies.<\/p>",
             "icon": "none"
           }
         },
         "question_8": {
           "type": "question",
           "settings": {
-            "question": "Can I apply for residency or citizenship in more than one country?",
-            "answer": "<p>Yes, many clients explore dual or multiple residencies and citizenships for increased flexibility. We can guide you through the options and help manage the process across different countries.<\/p>",
+            "question": "Do I need to visit the country to set up a business or bank account?",
+            "answer": "<p>In most cases, no. Many jurisdictions allow remote setup. We’ll guide you through the requirements during your consultation.<\/p>",
             "icon": "none"
           }
         },
-        "question_9": {
+        "category_UYzTEW": {
+          "type": "category",
+          "settings": {
+            "heading": "Emergency Backup Plans",
+            "show_category_card": true
+          }
+        },
+        "question_iPJbwK": {
           "type": "question",
           "settings": {
-            "question": "Do I need to visit the country to complete my residency or citizenship process?",
-            "answer": "<p>In some cases, yes, you may need to visit the country for certain stages of residency. However, we handle most of the groundwork to minimise the need for multiple trips.<\/p>",
+            "question": "What is an emergency backup plan, and why do I need one?",
+            "answer": "<p>An emergency backup plan provides financial security, alternative residencies, and asset protection in uncertain times. It’s essential for individuals looking to safeguard their future with offshore banking, secure deposit boxes, and additional residencies.<\/p>",
             "icon": "none"
           }
         }
       },
       "block_order": [
+        "category_FMjn3a",
+        "question_Mp4wn4",
+        "question_Hw3FBw",
         "category_1",
         "question_1",
         "question_2",
         "question_3",
+        "question_rd9TaD",
+        "question_GXEMLY",
         "category_2",
         "question_4",
         "question_5",
         "category_3",
         "question_7",
         "question_8",
-        "question_9"
+        "category_UYzTEW",
+        "question_iPJbwK"
       ],
       "settings": {
         "section_width": "regular",
@@ -112,88 +164,12 @@
         "enable_category_cards": false,
         "category_card_image_crop": "original",
         "category_heading_size": "medium",
-        "icon_color": "#ffffff"
-      }
-    },
-    "dynamic_faq_QykVKJ": {
-      "type": "dynamic-faq",
-      "blocks": {
-        "category_pByr6G": {
-          "type": "category",
-          "settings": {
-            "heading": "Business and Banking Setup",
-            "show_category_card": true
-          }
-        },
-        "question_GkHmfd": {
-          "type": "question",
-          "settings": {
-            "question": "Is it necessary to visit the country to set up a business or bank account?",
-            "answer": "<p>In some countries, you may need to be present, but we aim to simplify the process by handling much of the documentation and groundwork remotely.<\/p>",
-            "icon": "none"
-          }
-        },
-        "question_MWgxGh": {
-          "type": "question",
-          "settings": {
-            "question": "How do I know if property investment in a particular country is right for me?",
-            "answer": "<p>During the feedback consultation, we’ll assess your goals and present tailored property investment options based on the country’s market, legal framework, and investment potential.<\/p>",
-            "icon": "none"
-          }
-        },
-        "category_4KLt7k": {
-          "type": "category",
-          "settings": {
-            "heading": "Property Investment",
-            "show_category_card": true
-          }
-        },
-        "question_wweggi": {
-          "type": "question",
-          "settings": {
-            "question": "Do I need residency to invest in property?",
-            "answer": "<p>In most countries, you can invest in property without having residency. We’ll guide you through the legal and financial aspects of doing so.<\/p>",
-            "icon": "none"
-          }
-        },
-        "category_ecTm7Y": {
-          "type": "category",
-          "settings": {
-            "heading": "Getting Started",
-            "show_category_card": true
-          }
-        },
-        "question_4mCgPj": {
-          "type": "question",
-          "settings": {
-            "question": "How do I get started?",
-            "answer": "<p>Getting started is easy. Book a free consultation through our website, and we’ll guide you through the next steps based on your goals and needs.<\/p>",
-            "icon": "none"
-          }
-        }
-      },
-      "block_order": [
-        "category_pByr6G",
-        "question_GkHmfd",
-        "question_MWgxGh",
-        "category_4KLt7k",
-        "question_wweggi",
-        "category_ecTm7Y",
-        "question_4mCgPj"
-      ],
-      "settings": {
-        "section_width": "regular",
-        "heading": "",
-        "enable_category_cards": false,
-        "category_card_image_crop": "original",
-        "category_heading_size": "medium",
-        "icon_color": "rgba(0,0,0,0)"
+        "icon_color": "#2f3841"
       }
     }
   },
   "order": [
     "main",
-    "dynamic-faq",
-    "dynamic_faq_QykVKJ"
+    "dynamic-faq"
   ]
 }

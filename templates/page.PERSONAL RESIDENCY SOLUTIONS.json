@@ -1,0 +1,73 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {}
+    },
+    "dynamic_promo_grid_Be4nm7": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "promotion_M3Ki4b": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4BEDCC9E-4B86-4E04-89E3-455BA04F095F.webp",
+            "title": "Basic Residency ($3,000)",
+            "text": "✔ Residency in one country.\n✔ Offshore bank account.\n✔ BONUS: “Tax Optimisation 101”.\n✔ Video Series ($199 Value).",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation Now",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#2f3841",
+            "opacity": 50
+          }
+        },
+        "promotion_DBmmH4": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C0CEDC64-9D91-4F36-AAD3-2952F7FCF6B7.png",
+            "title": "Standard Residency ($6,000)",
+            "text": "✔ Residency in two countries.\n✔ Two offshore bank accounts.\n✔ Basic tax consultation.\n✔ BONUS: Private Concierge for Setup ($499 Value).",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation Now",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#2f3841",
+            "opacity": 50
+          }
+        },
+        "promotion_VftVGW": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12C6DD68-C81D-4468-BA19-CF8EA8FBED76.png",
+            "title": "Premium Residency ($10,000)",
+            "text": "✔ Residency in three countries.\n✔ Three offshore bank accounts.\n✔ Advanced tax strategy and concierge.\n✔ BONUS: 1-Year Support for Residency Management ($1,000 Value).",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/products\/free-initial-screening-1",
+            "button_text": "Book Free Consultation Now",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#2f3841",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion_M3Ki4b",
+        "promotion_DBmmH4",
+        "promotion_VftVGW"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "section_columns": 3,
+        "text_alignment": "top-left"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_promo_grid_Be4nm7"
+  ]
+}

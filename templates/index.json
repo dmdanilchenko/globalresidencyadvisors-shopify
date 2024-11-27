@@ -8,8 +8,8 @@
           "settings": {
             "background_image": "shopify:\/\/shop_images\/05716F65-D5DB-4ED5-A46C-97B0ED95757E.webp",
             "mobile_background_image": "shopify:\/\/shop_images\/05716F65-D5DB-4ED5-A46C-97B0ED95757E.webp",
-            "title": "Your Gateway to Global Mobility, Tax Efficiency, Residency, and Citizenship by Descent Solutions",
-            "text": "Start with a free screening and take the first step towards your dream lifestyle.",
+            "title": "Create Your Global Freedom Blueprint – Secure Residency, Optimize Taxes, and Build a Backup Plan",
+            "text": "Done-for-you solutions to set up offshore residencies, businesses, and emergency plans. Affordable for every stage of your journey",
             "color": "#ffffff",
             "link": "",
             "text_alignment": "center",
@@ -37,52 +37,85 @@
         "slideshow_text_below_image": false
       }
     },
-    "dynamic_image_with_text_3p4Fbr": {
-      "type": "dynamic-image-with-text",
+    "dynamic_slideshow_a4Qznc": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "slide_xhBttq": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/global_access_13fa7621-a853-448e-bd3f-4c1d16d00df1.png",
+            "mobile_background_image": "shopify:\/\/shop_images\/global_access_13fa7621-a853-448e-bd3f-4c1d16d00df1.png",
+            "title": "Build Your Global Freedom in Just 30 Days",
+            "text": "From Residency to Business Solutions, We Handle It All",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "Learn More",
+            "button_one_link": "shopify:\/\/pages\/services",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#2f3841",
+            "overlay_opacity": 50
+          }
+        },
+        "slide_8fnA7T": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/80CE0317-269D-47DC-A8E8-704FF0737CFB.png",
+            "mobile_background_image": "shopify:\/\/shop_images\/80CE0317-269D-47DC-A8E8-704FF0737CFB.png",
+            "title": "Global Starter Access",
+            "text": "Start Now for Just $199 – Get Expert Guidance +$200 Credit Toward Any Upgrade.",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "Learn More",
+            "button_one_link": "shopify:\/\/pages\/global-starter-access",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#2f3841",
+            "overlay_opacity": 70
+          }
+        },
+        "slide_bgcF8q": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/holding-a-stack-of-money.jpg",
+            "mobile_background_image": "shopify:\/\/shop_images\/holding-a-stack-of-money.jpg",
+            "title": "100% Money-Back Guarantee",
+            "text": "If we can’t deliver on our promises, we refundyour investment",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#2f3841",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "slide_xhBttq",
+        "slide_8fnA7T",
+        "slide_bgcF8q"
+      ],
       "settings": {
-        "section_heading": "Step-by-Step Guide to Your Services",
-        "image": "shopify:\/\/shop_images\/A13E572D-80A1-41B0-9139-E1F98CEC677C.webp",
-        "desktop_height": "natural",
-        "mobile_height": "natural",
-        "desktop_image_alignment": "left",
-        "mobile_image_alignment": "top",
-        "heading": "Step 1: Book Free Consultation",
-        "subheading": "<p>Book a 30-minute session to discuss your goals and gather key information.<\/p>",
-        "text_alignment": "left",
-        "button_label": "Book Now",
-        "button_link": "shopify:\/\/products\/free-initial-screening-1"
-      }
-    },
-    "dynamic_image_with_text_dm4hCR": {
-      "type": "dynamic-image-with-text",
-      "settings": {
-        "section_heading": "",
-        "image": "shopify:\/\/shop_images\/A13E572D-80A1-41B0-9139-E1F98CEC677C.webp",
-        "desktop_height": "natural",
-        "mobile_height": "natural",
-        "desktop_image_alignment": "left",
-        "mobile_image_alignment": "top",
-        "heading": "Step 2: Feedback Consultation",
-        "subheading": "<p>Receive a detailed plan and cost estimate from a professional based on your initial consultation.<\/p>",
-        "text_alignment": "left",
-        "button_label": "Button",
-        "button_link": ""
-      }
-    },
-    "dynamic_image_with_text_XrmTFt": {
-      "type": "dynamic-image-with-text",
-      "settings": {
-        "section_heading": "",
-        "image": "shopify:\/\/shop_images\/A13E572D-80A1-41B0-9139-E1F98CEC677C.webp",
-        "desktop_height": "natural",
-        "mobile_height": "natural",
-        "desktop_image_alignment": "left",
-        "mobile_image_alignment": "top",
-        "heading": "Step 3: Start Your Process",
-        "subheading": "<p>Begin the full process with expert guidance and document preparation.<\/p>",
-        "text_alignment": "left",
-        "button_label": "Button",
-        "button_link": ""
+        "enable_autoplay": true,
+        "autoplay_duration": 5,
+        "slideshow_width": "full",
+        "slideshow_height": "small",
+        "slideshow_height_mobile": "small",
+        "slideshow_text_below_image": true
       }
     },
     "dynamic_promo_grid_GHKB8w": {
@@ -92,40 +125,10 @@
           "type": "promotion",
           "settings": {
             "image": "shopify:\/\/shop_images\/4BEDCC9E-4B86-4E04-89E3-455BA04F095F.webp",
-            "title": "Residency Packages",
-            "text": "For clients looking to relocate or gain citizenship in a new country",
+            "title": "Personal Residency Solutions",
+            "text": "Secure residency in 1, 2, or 3 countries with tailored solutions that meet your global living goals.",
             "color": "#ffffff",
-            "block_link": "shopify:\/\/pages\/residency-and-citizenship",
-            "button_text": "Learn More",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_RNwetg": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/C98BF17B-B145-4877-932A-6BE33E5B47BC.png",
-            "title": "Citizenship by Descent",
-            "text": "Secure citizenship through your family heritage.",
-            "color": "#ffffff",
-            "block_link": "shopify:\/\/pages\/citizenship-by-descent",
-            "button_text": "Learn More",
-            "button_style": "primary",
-            "show_overlay": true,
-            "background": "#2f3841",
-            "opacity": 50
-          }
-        },
-        "promotion_wN67VU": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3B1F9C7E-EC51-45A9-8CBE-2F72217F9030.webp",
-            "title": "Visa Assistance Packages",
-            "text": "For individuals seeking support with specific visa applications.",
-            "color": "#ffffff",
-            "block_link": "shopify:\/\/pages\/visa-assistance-packages",
+            "block_link": "shopify:\/\/pages\/personal-residency-solutions",
             "button_text": "Learn More",
             "button_style": "primary",
             "show_overlay": true,
@@ -137,10 +140,10 @@
           "type": "promotion",
           "settings": {
             "image": "shopify:\/\/shop_images\/135BDB3C-B212-4564-9B39-83655592D651.webp",
-            "title": "Business Setup & Banking Solutions",
-            "text": "Assisting with business establishment and secure financial structures.",
+            "title": "Business Offshore Solutions",
+            "text": "Expand your business globally with expert-led setups in top jurisdictions and access to offshore banking.",
             "color": "#ffffff",
-            "block_link": "shopify:\/\/pages\/business-setup-and-banking-solutions",
+            "block_link": "shopify:\/\/pages\/business-offshore-solutions",
             "button_text": "Learn More",
             "button_style": "primary",
             "show_overlay": true,
@@ -148,14 +151,29 @@
             "opacity": 30
           }
         },
-        "promotion_PHPe3w": {
+        "promotion_wN67VU": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/D4BCB625-29D3-4E03-BD5F-7FAA74E9FBA0.webp",
-            "title": "Property Investment",
-            "text": "For clients interested in purchasing investment properties abroad.",
+            "image": "shopify:\/\/shop_images\/3B1F9C7E-EC51-45A9-8CBE-2F72217F9030.webp",
+            "title": "Global Starter Access",
+            "text": "Start your offshore journey for just $199 with essential guides and insider updates.",
             "color": "#ffffff",
-            "block_link": "shopify:\/\/pages\/property-investment",
+            "block_link": "shopify:\/\/pages\/global-starter-access",
+            "button_text": "Learn More",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#2f3841",
+            "opacity": 50
+          }
+        },
+        "promotion_3yT8D3": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B9E2DCD1-F9E0-442F-9406-75C7A3FC82FA.png",
+            "title": "Emergency Backup Plans",
+            "text": "Prepare for any situation with comprehensive international backup strategies, from banking to property.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/pages\/emergency-backup-plans",
             "button_text": "Learn More",
             "button_style": "primary",
             "show_overlay": true,
@@ -166,15 +184,14 @@
       },
       "block_order": [
         "promotion_AdWYzn",
-        "promotion_RNwetg",
-        "promotion_wN67VU",
         "promotion_VHThxT",
-        "promotion_PHPe3w"
+        "promotion_wN67VU",
+        "promotion_3yT8D3"
       ],
       "settings": {
         "title": "Our Services",
         "section_height": "small",
-        "section_columns": 3,
+        "section_columns": 4,
         "text_alignment": "top-left"
       }
     },
@@ -187,7 +204,7 @@
             "icon": "icon-cell-phone",
             "title": "Give Us A Call",
             "text": "<p>+1 772 289 9625<\/p>",
-            "link": ""
+            "link": "https:\/\/wa.me\/wa.me\/17722899625"
           }
         },
         "highlight-3": {
@@ -224,10 +241,10 @@
         "mobile_layout": "grid"
       }
     },
-    "dynamic_promo_mosaic": {
-      "type": "dynamic-promo-mosaic",
+    "dynamic_promo_grid_DwCWPc": {
+      "type": "dynamic-promo-grid",
       "blocks": {
-        "promotion-1": {
+        "promotion_zEidHn": {
           "type": "promotion",
           "settings": {
             "image": "shopify:\/\/shop_images\/1742FEA6-C277-49DC-9292-E6184EB5436B.webp",
@@ -239,16 +256,16 @@
             "button_style": "primary",
             "show_overlay": true,
             "background": "#2f3841",
-            "opacity": 50
+            "opacity": 60
           }
         },
-        "promotion-3": {
+        "promotion_bLcQAm": {
           "type": "promotion",
           "settings": {
             "image": "shopify:\/\/shop_images\/4590EC94-C4BA-4442-A277-037C86BC1BDC.webp",
             "title": "Personalised Solutions",
             "text": "We tailor every step of the process to your unique goals, ensuring that you receive advice and solutions specifically suited to your needs.",
-            "color": "{{ shop.brand.colors.secondary[0].foreground }}",
+            "color": "#ffffff",
             "block_link": "",
             "button_text": "",
             "button_style": "primary",
@@ -257,7 +274,7 @@
             "opacity": 60
           }
         },
-        "promotion-2": {
+        "promotion_garjMz": {
           "type": "promotion",
           "settings": {
             "image": "shopify:\/\/shop_images\/F77BD7DC-5FA3-4528-A6BC-FA841CC3D648.webp",
@@ -269,47 +286,44 @@
             "button_style": "primary",
             "show_overlay": true,
             "background": "#2f3841",
-            "opacity": 50
+            "opacity": 60
           }
         },
-        "promotion-4": {
+        "promotion_3VhGPY": {
           "type": "promotion",
           "settings": {
             "image": "shopify:\/\/shop_images\/7609616E-3C4C-40F4-9A51-1E8C5294869A.webp",
             "title": "Transparent Service",
             "text": "No hidden fees or surprises—our clear and upfront communication ensures that you understand every part of the process from start to finish.",
-            "color": "{{ shop.brand.colors.secondary[0].foreground }}",
+            "color": "#ffffff",
             "block_link": "",
             "button_text": "",
             "button_style": "primary",
             "show_overlay": true,
             "background": "#2f3841",
-            "opacity": 30
+            "opacity": 60
           }
         }
       },
       "block_order": [
-        "promotion-1",
-        "promotion-3",
-        "promotion-2",
-        "promotion-4"
+        "promotion_zEidHn",
+        "promotion_bLcQAm",
+        "promotion_garjMz",
+        "promotion_3VhGPY"
       ],
       "settings": {
-        "title": "",
+        "title": "Values",
         "section_height": "small",
-        "text_alignment": "top-left",
-        "maintain_aspect_ratio": true,
-        "compress_blocks": false
+        "section_columns": 4,
+        "text_alignment": "top-left"
       }
     }
   },
   "order": [
     "dynamic_slideshow",
-    "dynamic_image_with_text_3p4Fbr",
-    "dynamic_image_with_text_dm4hCR",
-    "dynamic_image_with_text_XrmTFt",
+    "dynamic_slideshow_a4Qznc",
     "dynamic_promo_grid_GHKB8w",
     "dynamic_highlights_banner",
-    "dynamic_promo_mosaic"
+    "dynamic_promo_grid_DwCWPc"
   ]
 }
