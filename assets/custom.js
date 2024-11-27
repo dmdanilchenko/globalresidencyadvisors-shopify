@@ -8,7 +8,7 @@ window.addEventListener('load', function () {
             form.addEventListener('submit', function (event) {
                 let errors = false;
                 // get all required inputs
-                form.querySelectorAll('input[required]').forEach(function (input) {
+                form.querySelectorAll('input[required], textarea[required]').forEach(function (input) {
                     errors = validateInput(input, window.Theme.requiredFieldErrorMessage, errors);
                 });
 
