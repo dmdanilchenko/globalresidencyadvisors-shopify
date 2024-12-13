@@ -70,7 +70,7 @@
 
     {% if block.settings.text != blank %}
       <p class="promo-block--text">
-        {{ block.settings.text | newline_to_br }}
+        {{ block.settings.text | escape }}
       </p>
     {% endif %}
 

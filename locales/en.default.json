@@ -200,10 +200,6 @@
       "hour": "hour",
       "hours": "hours",
       "ago": "ago"
-    },
-    "errors": {
-      "required_field": "It is required field.",
-      "select_country": "Please select country."
     }
   },
   "sections": {
@@ -280,9 +276,8 @@
   "header": {
     "account": {
       "title": "My Account",
-      "login": "Login \/ Signup",
-      "logout": "Logout",
-      "welcome": "Hello {{ first_name }}"
+      "login": "Login",
+      "logout": "Logout"
     }
   },
   "footer": {

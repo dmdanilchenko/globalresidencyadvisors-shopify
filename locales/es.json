@@ -236,13 +236,6 @@
       "now": "Ahora",
       "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} \/ {{ unit_measure }}",
       "view_details": "Ver el producto"
-    },
-    "pxs-newsletter": {
-      "form": {
-        "placeholder": "Dirección de correo electrónico",
-        "submit": "Suscribir",
-        "success": "¡Gracias por suscribirte!"
-      }
     }
   },
   "recipient": {
@@ -284,9 +277,8 @@
   "header": {
     "account": {
       "title": "Mi cuenta",
-      "login": "Ingresar \/ Registrarse",
-      "logout": "Cerrar sesión",
-      "welcome": "Hola {{ first_name }}"
+      "login": "Ingresar",
+      "logout": "Cerrar sesión"
     }
   },
   "footer": {
