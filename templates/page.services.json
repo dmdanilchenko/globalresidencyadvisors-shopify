@@ -4,75 +4,75 @@
       "type": "page",
       "settings": {}
     },
-    "dynamic_promo_grid_Be4nm7": {
-      "type": "dynamic-promo-grid",
+    "custom_promo_grid_EhV9zn": {
+      "type": "custom-promo-grid",
       "blocks": {
-        "promotion_M3Ki4b": {
+        "promotion_tJWhKE": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3B1F9C7E-EC51-45A9-8CBE-2F72217F9030.webp",
+            "image": "shopify:\/\/shop_images\/82a5559fb1dd0d555a66edd7389191ae.png",
             "title": "Global Starter Access",
             "text": "Start your offshore journey for just $199 with essential guides and insider updates.",
             "color": "#ffffff",
             "block_link": "shopify:\/\/pages\/global-starter-access",
-            "button_text": "Learn More",
-            "button_style": "primary",
-            "show_overlay": true,
-            "background": "#2f3841",
-            "opacity": 50
-          }
-        },
-        "promotion_DBmmH4": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/4BEDCC9E-4B86-4E04-89E3-455BA04F095F.webp",
-            "title": "Personal Residency Solutions",
-            "text": "Secure residency in 1, 2, or 3 countries with tailored solutions that meet your global living goals.",
-            "color": "#ffffff",
-            "block_link": "shopify:\/\/pages\/personal-residency-solutions",
-            "button_text": "Learn More",
-            "button_style": "primary",
+            "button_text": "Learn more",
+            "button_style": "secondary",
             "show_overlay": false,
             "background": "",
             "opacity": 50
           }
         },
-        "promotion_VftVGW": {
+        "promotion_Wk6aqn": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/92A5EC9D-AA64-404D-B481-FEC3572F9A10.png",
+            "image": "shopify:\/\/shop_images\/7c0d1cdc9e6c6b5b03c5d89c1260754a.png",
+            "title": "Personal Residency Solutions",
+            "text": "Secure residency in 1, 2, or 3 countries with tailored solutions that meet your global living goals.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/pages\/personal-residency-solutions",
+            "button_text": "Learn more",
+            "button_style": "secondary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_GX9BBB": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/530f1238a33d06006fe623462fadf757.png",
             "title": "Business Offshore Solutions",
             "text": "Expand your business globally with expert-led setups in top jurisdictions and access to offshore banking.",
             "color": "#ffffff",
             "block_link": "shopify:\/\/pages\/business-offshore-solutions",
-            "button_text": "Learn More",
-            "button_style": "primary",
-            "show_overlay": true,
-            "background": "#121212",
-            "opacity": 30
+            "button_text": "Learn more",
+            "button_style": "secondary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
           }
         },
-        "promotion_WNnh34": {
+        "promotion_AejLqj": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/B9E2DCD1-F9E0-442F-9406-75C7A3FC82FA.png",
+            "image": "shopify:\/\/shop_images\/Group_54_12549df3-f539-4b68-bb80-1eefe907244b.png",
             "title": "Emergency Backup Plans",
             "text": "Prepare for any situation with comprehensive international backup strategies, from banking to property.",
             "color": "#ffffff",
             "block_link": "shopify:\/\/pages\/emergency-backup-plans",
-            "button_text": "Learn More",
-            "button_style": "primary",
-            "show_overlay": true,
-            "background": "#2f3841",
-            "opacity": 30
+            "button_text": "Learn more",
+            "button_style": "secondary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
           }
         }
       },
       "block_order": [
-        "promotion_M3Ki4b",
-        "promotion_DBmmH4",
-        "promotion_VftVGW",
-        "promotion_WNnh34"
+        "promotion_tJWhKE",
+        "promotion_Wk6aqn",
+        "promotion_GX9BBB",
+        "promotion_AejLqj"
       ],
       "settings": {
         "title": "",
@@ -84,6 +84,6 @@
   },
   "order": [
     "main",
-    "dynamic_promo_grid_Be4nm7"
+    "custom_promo_grid_EhV9zn"
   ]
 }

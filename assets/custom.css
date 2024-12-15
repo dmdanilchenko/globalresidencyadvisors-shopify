@@ -1,3 +1,9 @@
+/* 19.2 ratio to convert px to vw */
+.page-title {
+    font-size: 5vw;
+    font-weight: 700;
+}
+
 .disclosure-list .disclosure-list__item {
     color: var(--disclosure-toggle-text-color);
 }
@@ -107,5 +113,17 @@
 
     .site-footer-block-title[data-accordion-trigger] {
         display: none;
+    }
+}
+
+@media screen and (max-width: 859px) {
+    .page-title {
+        font-size: 48px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .page-title {
+        font-size: 96px;
     }
 }
