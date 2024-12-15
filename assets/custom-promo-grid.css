@@ -117,6 +117,7 @@ body {
 @media screen and (min-width: 1024px) {
     .promo-grid--container-custom .promo-block--button {
         font-size: 22px;
+        padding: 5px 10px;
         text-transform: capitalize;
     }
 
@@ -150,11 +151,6 @@ body {
 
     .promo-grid--container-custom .promo-block--content {
         padding: 0 44px;
-    }
-
-    .promo-grid--container-custom .promo-block--button {
-        font-size: 22px;
-        padding: 5px 10px;
     }
 
     .promo-grid--container-custom .promo-block--button svg {
