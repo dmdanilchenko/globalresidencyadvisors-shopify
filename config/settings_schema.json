@@ -416,7 +416,7 @@
         "id": "layout_max_width",
         "type": "range",
         "min": 1200,
-        "max": 1600,
+        "max": 1800,
         "step": 100,
         "unit": "px",
         "label": "t:settings_schema.layout.layout_max_width.label",
