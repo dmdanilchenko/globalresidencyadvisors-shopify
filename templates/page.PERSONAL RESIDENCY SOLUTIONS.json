@@ -10,9 +10,9 @@
         "promotion_M3Ki4b": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4BEDCC9E-4B86-4E04-89E3-455BA04F095F.webp",
+            "image": "shopify:\/\/shop_images\/1.png",
             "title": "Basic Residency ($3,000)",
-            "text": "✔ Residency in one country.\n✔ Offshore bank account.\n✔ BONUS: “Tax Optimisation 101”.\n✔ Video Series ($199 Value).",
+            "description": "<ul><li>Residency in one country.<\/li><li>Offshore bank account.<\/li><li>BONUS: “Tax Optimisation 101”.<\/li><li>Video Series ($199 Value).<\/li><\/ul>",
             "color": "#ffffff",
             "block_link": "shopify:\/\/products\/free-initial-screening-1",
             "button_text": "Book Free Consultation Now",
@@ -25,9 +25,9 @@
         "promotion_DBmmH4": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/C0CEDC64-9D91-4F36-AAD3-2952F7FCF6B7.png",
+            "image": "shopify:\/\/shop_images\/2.png",
             "title": "Standard Residency ($6,000)",
-            "text": "✔ Residency in two countries.\n✔ Two offshore bank accounts.\n✔ Basic tax consultation.\n✔ BONUS: Private Concierge for Setup ($499 Value).",
+            "description": "<ul><li>Residency in two countries.<\/li><li>Two offshore bank accounts.<\/li><li>Basic tax consultation.<\/li><li>BONUS: Private Concierge for Setup ($499 Value).<\/li><\/ul>",
             "color": "#ffffff",
             "block_link": "shopify:\/\/products\/free-initial-screening-1",
             "button_text": "Book Free Consultation Now",
@@ -40,9 +40,9 @@
         "promotion_VftVGW": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/12C6DD68-C81D-4468-BA19-CF8EA8FBED76.png",
+            "image": "shopify:\/\/shop_images\/3.png",
             "title": "Premium Residency ($10,000)",
-            "text": "✔ Residency in three countries.\n✔ Three offshore bank accounts.\n✔ Advanced tax strategy and concierge.\n✔ BONUS: 1-Year Support for Residency Management ($1,000 Value).",
+            "description": "<ul><li>Residency in three countries.<\/li><li>Three offshore bank accounts.<\/li><li>Advanced tax strategy and concierge.<\/li><li>BONUS: 1-Year Support for Residency Management ($1,000 Value).<\/li><\/ul>",
             "color": "#ffffff",
             "block_link": "shopify:\/\/products\/free-initial-screening-1",
             "button_text": "Book Free Consultation Now",
@@ -59,7 +59,8 @@
         "promotion_VftVGW"
       ],
       "settings": {
-        "title": "",
+        "show_redesigned": true,
+        "title": "Book a Free Consultation to Start Your Global Residency Plan",
         "section_height": "small",
         "section_columns": 3,
         "text_alignment": "top-left"

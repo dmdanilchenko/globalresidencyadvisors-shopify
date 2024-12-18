@@ -10,15 +10,40 @@ body {
     padding: 4.17vw 0;
 }
 
-.promo-grid--container-custom .promo-block {
+.promo-grid--container-custom .promo-block,
+.promo-grid--container-redesigned .promo-block {
     background: none;
 }
 
-.promo-grid--container-custom .promo-block img {
+.promo-grid--container-custom .promo-block img,
+.promo-grid--container-redesigned .promo-block img {
     position: static;
     width: 100%;
     opacity: 1;
     height: auto;
+}
+
+.promo-grid--container-redesigned .promo-block img {
+    width: 30%;
+}
+
+.promo-grid--container-redesigned .promo-block--content-wrapper {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.promo-grid--container-redesigned .promo-block--content {
+    background: linear-gradient(180deg, #8A481D 0%, #241308 100%);
+}
+
+.promo-grid--container-redesigned .promo-block + .promo-block .promo-block--content {
+    background: linear-gradient(180deg, #C36629 0%, #241308 100%);
+}
+
+.promo-grid--container-redesigned .promo-block + .promo-block + .promo-block .promo-block--content {
+    background: linear-gradient(180deg, #FF8535 0%, #241308 100%);
 }
 
 .promo-grid--container-custom .promo-block--content-wrapper {
@@ -37,17 +62,26 @@ body {
     line-height: 120%;
 }
 
+.promo-grid--container-redesigned .promo-block--header {
+    font-family: Syne, sans-serif;
+    font-size: 3.33vw;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: capitalize;
+    margin-bottom: 4.06vw;
+}
+
 .promo-grid--container-custom .promo-block--text {
     font-size: 1.25vw;
     line-height: 1.25;
     margin-bottom: 2.1vw;
 }
 
-.animating-in .promo-block--button, .promo-block--expanded .promo-block--button {
+.promo-grid--container-custom .animating-in .promo-block--button, .promo-grid--container-custom .promo-block--expanded .promo-block--button {
     display: flex;
 }
 
-.promo-block--button {
+.promo-grid--container-custom .promo-block--button {
     padding: 5px 10px;
     background: none;
     border: 2px solid #FAE6C1;
@@ -62,9 +96,57 @@ body {
     text-transform: capitalize;
 }
 
-.promo-block--button:not(.disabled):hover {
+.promo-grid--container-custom .promo-block--button:not(.disabled):hover {
     background: rgb(250 230 193 / 50%);
     border: 2px solid #FAE6C1;
+}
+
+.promo-grid--container-redesigned .promo-block--button-wrapper {
+    display: flex;
+    flex-flow: wrap;
+    align-items: start;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.promo-grid--container-redesigned ul {
+    padding: 0;
+    list-style: none;
+}
+
+.promo-grid--container-redesigned ul li {
+    display: flex;
+    align-items: start;
+    position: relative;
+    margin-bottom: 2.08vw;
+    font-size: 1.56vw;
+    text-transform: capitalize;
+}
+
+.promo-grid--container-redesigned ul li::before {
+    content: '';
+    display: block;
+    background-image: url(icon-tick.svg);
+    background-size: contain;
+    min-width: 2.08vw;
+    width: 2.08vw;
+    height: 2.08vw;
+    margin-right: 1vw;
+}
+
+.promo-grid--container-redesigned .home-section--title {
+    font-family: Syne, sans-serif;
+    color: #FAE6C1;
+    font-size: 2.81vw;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.promo-grid--container-redesigned .home-section--content {
+    margin-top: 4.17vw;
 }
 
 @media screen and (max-width: 859px) {
@@ -72,18 +154,46 @@ body {
         font-size: 32px;
     }
 
+    .promo-grid--container-redesigned .promo-block--header {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
     .promo-grid--container-custom .promo-block--text {
         font-size: 16px;
+    }
+
+    .promo-grid--container-redesigned ul li {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .promo-grid--container-redesigned ul li::before {
+        min-width: 32px;
+        width: 32px;
+        height: 32px;
+        margin-right: 12px;
+    }
+
+    .promo-grid--container-redesigned .home-section--title {
+        font-size: 24px;
+    }
+
+    .promo-grid--container-redesigned .home-section--content {
+        margin-top: 40px;
     }
 }
 
 @media screen and (max-width: 719px) {
-    .promo-grid--container-custom .promo-block--content {
+    .promo-grid--container-custom .promo-block--content,
+    .promo-grid--container-redesigned .promo-block--content {
         height: auto;
     }
 
     .promo-grid--container-custom .promo-block--content.animating-in,
-    .promo-grid--container-custom .promo-block--content.promo-block--expanded:not(.animating-out) {
+    .promo-grid--container-custom .promo-block--content.promo-block--expanded:not(.animating-out),
+    .promo-grid--container-redesigned .promo-block--content.animating-in,
+    .promo-grid--container-redesigned .promo-block--content.promo-block--expanded:not(.animating-out) {
         height: auto;
     }
 }
@@ -137,11 +247,27 @@ body {
     .promo-grid--container-custom .promo-grid--inner {
         grid-gap: 2px;
     }
+
+    .promo-grid--container-redesigned .promo-grid--inner {
+        grid-gap: 2.4vw;
+    }
+
+    .promo-grid--container-redesigned .promo-grid__columns--3 .promo-block--text,
+    .promo-grid--container-redesigned .promo-grid__columns--3 .promo-block--header,
+    .promo-grid--container-redesigned .promo-grid__columns--4 .promo-block--text,
+    .promo-grid--container-redesigned .promo-grid__columns--4 .promo-block--header {
+        max-width: 100%;
+    }
 }
 
 @media screen and (min-width: 1800px) {
     .promo-grid--container-custom .promo-block--header {
         font-size: 64px;
+    }
+
+    .promo-grid--container-redesigned .promo-block--header {
+        font-size: 64px;
+        margin-bottom: 78px;
     }
 
     .promo-grid--container-custom .promo-block--text {
@@ -155,5 +281,29 @@ body {
 
     .promo-grid--container-custom .promo-block--button svg {
         width: 44px;
+    }
+
+    .promo-grid--container-redesigned .promo-grid--inner {
+        grid-gap: 46px;
+    }
+
+    .promo-grid--container-redesigned ul li {
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+
+    .promo-grid--container-redesigned ul li::before {
+        min-width: 40px;
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+    }
+
+    .promo-grid--container-redesigned .home-section--title {
+        font-size: 54px;
+    }
+
+    .promo-grid--container-redesigned .home-section--content {
+        margin-top: 80px;
     }
 }

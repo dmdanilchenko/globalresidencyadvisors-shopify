@@ -10,9 +10,9 @@
         "promotion_M3Ki4b": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/B9E2DCD1-F9E0-442F-9406-75C7A3FC82FA.png",
+            "image": "shopify:\/\/shop_images\/7.png",
             "title": "Basic Backup ($4,000)",
-            "text": "✔ One offshore bank account.\n✔ Secure deposit box.\n✔ BONUS: “Emergency Relocation Checklist” PDF ($99 Value).",
+            "description": "<ul><li>One offshore bank account<\/li><li>Secure deposit box<\/li><li>BONUS: \"Emergency Relocation Checklist\" PDF ($99 Value).<\/li><\/ul>",
             "color": "#ffffff",
             "block_link": "shopify:\/\/products\/free-initial-screening-1",
             "button_text": "Book Free Consultation Now",
@@ -25,9 +25,9 @@
         "promotion_DBmmH4": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/9B3BF822-FFA2-4FF1-A171-3DE0E9B29150.png",
+            "image": "shopify:\/\/shop_images\/8.png",
             "title": "Standard Backup ($8,000)",
-            "text": "✔ Two offshore bank accounts.\n✔ Residency in one country.\n✔ BONUS: “Basic Tax Prep for Relocations” ($199 Value).",
+            "description": "<ul><li>Two offshore bank accounts<\/li><li>Residency in one country<\/li><li>Basic tax consultation<\/li><li>BONUS: \"Basic Tax Prep for Relocations\" ($199 Value)<\/li><\/ul>",
             "color": "#ffffff",
             "block_link": "shopify:\/\/products\/free-initial-screening-1",
             "button_text": "Book Free Consultation Now",
@@ -40,9 +40,9 @@
         "promotion_VftVGW": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/C77236F9-5DE3-41AA-952D-FE73BE9186BF.png",
+            "image": "shopify:\/\/shop_images\/9.png",
             "title": "Premium Backup ($15,000)",
-            "text": "✔ Three offshore bank accounts.\n✔ Residency in two countries.\n✔ Advanced tax strategy.\n✔ BONUS: Personalised Property Search Report ($1,000 Value).",
+            "description": "<ul><li>Three offshore bank account<\/li><li>Residency in two countries<\/li><li>Advanced tax strategy<\/li><li>bONUS: Personalized Prop<br\/>Search Report ($1,000 Value)<\/li><\/ul>",
             "color": "#ffffff",
             "block_link": "shopify:\/\/products\/free-initial-screening-1",
             "button_text": "Book Free Consultation Now",
@@ -59,7 +59,8 @@
         "promotion_VftVGW"
       ],
       "settings": {
-        "title": "",
+        "show_redesigned": true,
+        "title": "Build Your Emergency Backup Plan Now",
         "section_height": "small",
         "section_columns": 3,
         "text_alignment": "top-left"

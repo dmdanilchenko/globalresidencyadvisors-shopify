@@ -1,6 +1,9 @@
+<link rel="stylesheet" href="{{ 'custom-promo-grid.css' | asset_url }}">
 <script type="application/pxs-animation-mapping+json">
   {
-    "blocks": [".promo-block"],
+    "blocks": [
+      ".promo-block"
+    ],
     "elements": [
       ".promo-block--header",
       ".promo-block--text",
@@ -9,7 +12,7 @@
   }
 </script>
 
-<section class="promo-grid--container">
+<section class="promo-grid--container {% if section.settings.show_redesigned %}promo-grid--container-redesigned{% endif %}">
   {% if section.settings.title != blank %}
     <h2 class="home-section--title">
       {{ section.settings.title | escape }}
@@ -20,18 +23,28 @@
     home-section--content
     promo-grid--height-{{ section.settings.section_height }}
   {%- endcapture -%}
-
   <div class="{{ classes | strip_newlines }}">
     {% if section.blocks.size > 0 %}
       <div class="promo-grid--inner promo-grid__columns--{{ section.settings.section_columns }}">
-        {% for block in section.blocks %}
-          {%
-            render 'promo-block',
-            block: block,
-            text_alignment: section.settings.text_alignment,
-            index: forloop.index,
-          %}
-        {% endfor %}
+        {% if section.settings.show_redesigned %}
+          {% for block in section.blocks %}
+            {%
+              render 'custom-promo-block-type2',
+              block: block,
+              text_alignment: section.settings.text_alignment,
+              index: forloop.index
+            %}
+          {% endfor %}
+        {% else %}
+          {% for block in section.blocks %}
+            {%
+              render 'promo-block',
+              block: block,
+              text_alignment: section.settings.text_alignment,
+              index: forloop.index
+            %}
+          {% endfor %}
+        {% endif %}
       </div>
     {% endif %}
   </div>
@@ -48,6 +61,12 @@
   "class": "promo-grid--section",
   "max_blocks": 20,
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_redesigned",
+      "label": "Redesign",
+      "default": true
+    },
     {
       "type": "text",
       "id": "title",
@@ -149,10 +168,10 @@
           "default": "Grid"
         },
         {
-          "type": "textarea",
-          "id": "text",
-          "label": "t:sections.grid.blocks.promotional_item.text.label",
-          "default": "Use this section to welcome customers to your store, say a bit about your brand, or share news."
+          "type": "richtext",
+          "id": "description",
+          "label": "Description",
+          "default": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news.</p>"
         },
         {
           "type": "color",
@@ -234,7 +253,9 @@
     }
   ],
   "disabled_on": {
-    "groups": ["*"]
+    "groups": [
+      "*"
+    ]
   }
 }
 {% endschema %}
