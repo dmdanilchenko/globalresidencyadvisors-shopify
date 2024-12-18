@@ -26,16 +26,74 @@
       "block_order": [
         "promotion_M3Ki4b"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "section_height": "small",
         "section_columns": 1,
         "text_alignment": "top-left"
       }
+    },
+    "custom_starter_plan_qqYqKT": {
+      "type": "custom-starter-plan",
+      "blocks": {
+        "feature_YkVEtf": {
+          "type": "feature",
+          "settings": {
+            "text": "Your Foot in the Door to Global Freedom"
+          }
+        },
+        "feature_n4HgKM": {
+          "type": "feature",
+          "settings": {
+            "text": "Offshore banking, residency, and tax guides"
+          }
+        },
+        "feature_thMPTp": {
+          "type": "feature",
+          "settings": {
+            "text": "Exclusive updates on new opportunities"
+          }
+        },
+        "feature_AGEpk6": {
+          "type": "feature",
+          "settings": {
+            "text": "BONUS: \"How to Build Global Wealth\" E-Book ($99 Value)"
+          }
+        },
+        "feature_zEGPRz": {
+          "type": "feature",
+          "settings": {
+            "text": "BONUS: Free 20-Minute Consultation ($150 Value)"
+          }
+        },
+        "feature_8mM68b": {
+          "type": "feature",
+          "settings": {
+            "text": "Guarantee: if you don’t find any value within 30 days, cancel for a full refund"
+          }
+        }
+      },
+      "block_order": [
+        "feature_YkVEtf",
+        "feature_n4HgKM",
+        "feature_thMPTp",
+        "feature_AGEpk6",
+        "feature_zEGPRz",
+        "feature_8mM68b"
+      ],
+      "settings": {
+        "title": "Get Instant Access for Just $199",
+        "content_title": "<div>Starter Plan: Global Starter Access $199 (One-Time) + $9.95\/month<div><\/div>\n<\/div>",
+        "image": "shopify:\/\/shop_images\/530f1238a33d06006fe623462fadf757.png",
+        "block_link": "shopify:\/\/products\/free-initial-screening-1",
+        "button_text": "Book free consultation now"
+      }
     }
   },
   "order": [
     "main",
-    "dynamic_promo_grid_Be4nm7"
+    "dynamic_promo_grid_Be4nm7",
+    "custom_starter_plan_qqYqKT"
   ]
 }

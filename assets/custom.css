@@ -106,6 +106,52 @@
     margin-bottom: .3125rem;
 }
 
+.age-gate__confirm_btn,
+.spr-summary-actions-newreview,
+.shopify-payment-button .shopify-payment-button__button--unbranded,
+.smart-payment-enabled .product-form--atc-button, .product-form--atc-button,
+.utils-sortby--modal-button, .live-search-button, .back-to-top__button,
+.article--excerpt-wrapper--featured .article--excerpt-button,
+.order-page__atc-button, .shopify-challenge__container .btn, .pxs-image-with-text-button,
+.slideshow-slide__button--secondary, .slideshow-slide__button--primary, .page__content button,
+.image-with-text__button, .faq__categories-list-item-link, .countdown-timer__caption-button.countdown-timer__caption-button--secondary,
+.countdown-timer__caption-button.countdown-timer__caption-button--primary, .button-secondary, .button-primary, .productgrid--no-results-button {
+    color: #FFF;
+    font-family: Syne;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    background: #8A481D;
+    border: 1px solid #8A481D;
+}
+
+.button-primary:not(.disabled):hover {
+    background: rgb(138 72 29 / 50%);
+    border: 1px solid rgb(138 72 29 / 50%);
+}
+
+@media screen and (max-width: 859px) {
+    .page-title {
+        font-size: 48px;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    .age-gate__confirm_btn,
+    .spr-summary-actions-newreview,
+    .shopify-payment-button .shopify-payment-button__button--unbranded,
+    .smart-payment-enabled .product-form--atc-button, .product-form--atc-button,
+    .utils-sortby--modal-button, .live-search-button, .back-to-top__button,
+    .article--excerpt-wrapper--featured .article--excerpt-button,
+    .order-page__atc-button, .shopify-challenge__container .btn, .pxs-image-with-text-button,
+    .slideshow-slide__button--secondary, .slideshow-slide__button--primary, .page__content button,
+    .image-with-text__button, .faq__categories-list-item-link, .countdown-timer__caption-button.countdown-timer__caption-button--secondary,
+    .countdown-timer__caption-button.countdown-timer__caption-button--primary, .button-secondary, .button-primary, .productgrid--no-results-button {
+        font-size: 16px;
+        padding: 16px 36px;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .site-header-main .live-search {
         margin-right: 0;
@@ -116,11 +162,6 @@
     }
 }
 
-@media screen and (max-width: 859px) {
-    .page-title {
-        font-size: 48px;
-    }
-}
 
 @media screen and (min-width: 1800px) {
     .page-title {
