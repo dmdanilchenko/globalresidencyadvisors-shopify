@@ -130,6 +130,39 @@
     border: 1px solid rgb(138 72 29 / 50%);
 }
 
+
+.spr-form .spr-form-input-text, .spr-form .spr-form-input-email,
+.spr-form .spr-form-input-textarea, .options-selection__option-value-input + .options-selection__option-value-name,
+.options-selection__option-value-input + .options-selection__option-swatch-wrapper,
+.productgrid--sidebar-item-grid .filter-item:not(.filter-item--toggle-more),
+.form-field-input, .form-field-select, .options-selection__input-select, .age-gate__select {
+    background: none;
+    border: 2px solid #8A481D;
+}
+
+.spr-form .spr-form-input-text:not(.live-search-form-field):hover, .spr-form .spr-form-input-email:not(.live-search-form-field):hover,
+.spr-form .spr-form-input-textarea:not(.live-search-form-field):hover, .form-field-input:not(.live-search-form-field):hover {
+    border: 2px solid #8A481D;
+}
+
+footer .newsletter .form-field-input {
+    border: 2px solid #fff;
+}
+
+footer .newsletter button {
+    border: 1px solid #fff;
+}
+
+footer .newsletter button:active,
+footer .newsletter button:not(.disabled):hover {
+    background: #d49864;
+    border: 1px solid #d49864;
+}
+
+.site-footer-block-title-desktop {
+    display: none;
+}
+
 @media screen and (max-width: 859px) {
     .page-title {
         font-size: 48px;
@@ -159,6 +192,10 @@
 
     .site-footer-block-title[data-accordion-trigger] {
         display: none;
+    }
+
+    .site-footer-block-title-desktop {
+        display: block;
     }
 }
 

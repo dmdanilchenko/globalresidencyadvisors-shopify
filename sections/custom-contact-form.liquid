@@ -1,14 +1,9 @@
 <link rel="stylesheet" href="{{ 'custom-contact-form.css' | asset_url }}">
-<article class="site-page" data-template-page data-template-contact>
+<section class="site-page site-page--contact-section">
 
-  <header class="page-masthead page-masthead--contact">
-    <h1 class="page-title">
-      {{ page.title }}
-    </h1>
-
+  <header class="page-masthead page-masthead--contact page-masthead--contact-section">
     <h2>Get in touch</h2>
   </header>
-
 
   {% form 'contact' %}
 
@@ -144,4 +139,15 @@
       </div>
     </div>
   {% endform %}
-</article>
+</section>
+{% schema %}
+{
+  "name": "Custom Contact Form",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Custom Contact Form"
+    }
+  ]
+}
+{% endschema %}

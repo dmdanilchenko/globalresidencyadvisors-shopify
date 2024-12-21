@@ -1,0 +1,79 @@
+/* 19.2 ratio to convert px to vw */
+.contact-page-content {
+    max-width: 1700px;
+}
+
+.contact-page-content .form-field-title {
+    display: inline-block;
+    position: static;
+    top: 0;
+    transform: none;
+    color: #fff;
+    font-family: Syne, sans-serif;
+    font-size: 1.25vw;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 1vw;
+}
+
+.contact-page-content input, .contact-page-content textarea {
+    padding: 1vw 2vw;
+}
+
+.contact-page-content input::placeholder, .contact-page-content textarea::placeholder {
+    color: #837D7D !important;
+    opacity: 1 !important;
+}
+
+.page-masthead--contact h2 {
+    font-family: Syne, sans-serif;
+    font-size: 2.81vw;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.page-masthead--contact-section h2 {
+    text-align: center;
+}
+
+@media screen and (max-width: 859px) {
+    .page-masthead--contact h2 {
+        font-size: 26px;
+    }
+
+    .contact-page-content .form-field-title, .contact-page-content textarea {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .contact-page-content input {
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .site-page--contact-section {
+        padding: 0 3vw;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .page-masthead--contact h2 {
+        font-size: 54px;
+    }
+
+    .contact-page-content .form-field-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .contact-page-content input, .contact-page-content textarea {
+        padding: 20px 40px;
+    }
+
+    .site-page--contact-section {
+        padding: 0 44px;
+    }
+}

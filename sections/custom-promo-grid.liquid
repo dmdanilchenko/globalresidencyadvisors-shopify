@@ -12,7 +12,8 @@
   }
 </script>
 <div class="promo-grid--wrapper">
-  <section class="promo-grid--container promo-grid--container-custom">
+  <section
+    class="promo-grid--container promo-grid--container-custom {% if section.settings.use_background %}promo-grid--container-use-bg{% endif %} {% if section.settings.use_dividers %}promo-grid--container-use-dividers{% endif %}">
     {% if section.settings.title != blank %}
       <h2 class="home-section--title">
         {{ section.settings.title | escape }}
@@ -56,6 +57,18 @@
       "id": "title",
       "label": "t:sections.grid.title.label",
       "default": "Grid"
+    },
+    {
+      "type": "checkbox",
+      "id": "use_background",
+      "label": "Use background",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "use_dividers",
+      "label": "Use dividers",
+      "default": true
     },
     {
       "id": "section_height",

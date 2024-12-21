@@ -18,17 +18,16 @@
             "text": ""
           }
         },
+        "rich_text_4whb7E": {
+          "type": "rich_text",
+          "settings": {
+            "title": "Contact us",
+            "text": "<ul><li>+1 772 289 9625<\/li><li>We Offer 24-Hour Chat Support<\/li><\/ul>"
+          }
+        },
         "social_accounts_mx7Lqr": {
           "type": "social_accounts",
           "settings": {}
-        },
-        "rich_text_4whb7E": {
-          "type": "rich_text",
-          "disabled": true,
-          "settings": {
-            "title": "Contact us",
-            "text": ""
-          }
         },
         "rich_text_F4TJbT": {
           "type": "rich_text",
@@ -41,16 +40,16 @@
       "block_order": [
         "static-footer-0",
         "static-footer-1",
-        "social_accounts_mx7Lqr",
         "rich_text_4whb7E",
+        "social_accounts_mx7Lqr",
         "rich_text_F4TJbT"
       ],
       "settings": {
-        "show_follow_on_shop": true,
-        "payment_icons": true,
+        "show_follow_on_shop": false,
+        "payment_icons": false,
         "show_locale_selector": true,
         "show_currency_selector": true,
-        "additional_menu": ""
+        "additional_menu": "footer"
       }
     }
   },
