@@ -149,6 +149,10 @@ footer .newsletter .form-field-input {
     border: 2px solid #fff;
 }
 
+footer .newsletter .form-field-input:not(.live-search-form-field):hover {
+    border: 2px solid #fff;
+}
+
 footer .newsletter button {
     border: 1px solid #fff;
 }
@@ -163,9 +167,71 @@ footer .newsletter button:not(.disabled):hover {
     display: none;
 }
 
+.social-link + .social-link {
+    margin-left: 1.56rem;
+}
+
+.fourohfour-title p {
+    text-align: center;
+    font-family: Syne, sans-serif;
+    font-size: 5.73vw;
+    font-weight: 500;
+    line-height: 119.988%;
+    letter-spacing: 0.1146em;
+    margin-bottom: 0;
+}
+
+.fourohfour-title h1 {
+    font-family: "STIX Two Math", serif;
+    font-size: 20.8vw;
+    margin-bottom: 0;
+}
+
+.fourohfour-title h2 {
+    font-family: Syne, sans-serif;
+    font-size: 5.73vw;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.fourohfour--inner .button-primary {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 22px;
+}
+
+.fourohfour--inner .button-primary svg {
+    width: 2.3vw;
+}
+
 @media screen and (max-width: 859px) {
     .page-title {
         font-size: 48px;
+    }
+
+    .social-link + .social-link {
+        margin-left: 16px;
+    }
+
+    .fourohfour-title p {
+        font-size: 55px;
+        letter-spacing: 1.1px;
+    }
+
+    .fourohfour-title h1 {
+        font-size: 200px;
+    }
+
+    .fourohfour-title h2 {
+        font-size: 48px;
+    }
+
+
+    .fourohfour--inner .button-primary svg {
+        width: 22px;
     }
 }
 
@@ -203,5 +269,26 @@ footer .newsletter button:not(.disabled):hover {
 @media screen and (min-width: 1800px) {
     .page-title {
         font-size: 96px;
+    }
+
+    .social-link + .social-link {
+        margin-left: 30px;
+    }
+
+    .fourohfour-title p {
+        font-size: 110px;
+        letter-spacing: 2.2px;
+    }
+
+    .fourohfour-title h1 {
+        font-size: 400px;
+    }
+
+    .fourohfour-title h2 {
+        font-size: 96px;
+    }
+
+    .fourohfour--inner .button-primary svg {
+        width: 44px;
     }
 }

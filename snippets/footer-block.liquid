@@ -29,6 +29,19 @@
         accordion_level: 1,
       %}
     </div>
+  {% elsif block.type == 'custom_html' %}
+    {% if block.settings.title != blank %}
+      <h2 class="site-footer-block-title">
+        {{ block.settings.title | escape }}
+      </h2>
+    {% endif %}
+
+    {% if block.settings.text != blank %}
+      <div class="site-footer-block-content site-footer-block-content-custom rte">
+        {{ block.settings.text }}
+      </div>
+    {% endif %}
+
   {% elsif block.type == 'rich_text' or block.type == 'newsletter' %}
     {% if block.settings.title != blank %}
       <h2 class="site-footer-block-title">
