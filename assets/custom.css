@@ -24,6 +24,14 @@
     border-color: red;
 }
 
+.site-header-right {
+    display: none;
+}
+
+.site-header {
+    box-shadow: none;
+}
+
 .spr-content .spr-pagination a, .spr-content .spr-review .spr-review-footer a,
 .spr-summary-caption a.spr-summary-actions-togglereviews, .product-recently-viewed__clear,
 .shopify-payment-button .shopify-payment-button__more-options, .complementary-product__link,
@@ -207,6 +215,90 @@ footer .newsletter button:not(.disabled):hover {
     width: 2.3vw;
 }
 
+.live-search-form-field:not(:focus,:active) {
+    color: #837D7D;
+    font-family: Syne, sans-serif;
+    font-weight: 700;
+}
+
+.live-search-form-field {
+    color: #837D7D;
+    font-family: Syne, sans-serif;
+    font-weight: 700;
+}
+
+.live-search-button {
+    background: transparent;
+    border-color: transparent;
+    border-radius: 0;
+}
+
+.live-search {
+    height: 54px;
+}
+
+.live-search-form {
+    border: 2px solid #8A481D;
+    border-radius: 0;
+}
+
+.live-search-form .form-field {
+    height: 54px;
+}
+
+.live-search-form-field {
+    border-radius: 0;
+}
+
+.mobile-nav-content .navmenu-depth-1 > .navmenu-item > .navmenu-link,
+.mobile-nav-primary-content .navmenu-depth-1 > .navmenu-item > .navmenu-link,
+.navmenu-meganav.navmenu-meganav--desktop .navmenu-item-text, .site-navigation .navmenu-depth-1 > li > a,
+.site-navigation a, .site-navigation summary, .site-header-actions {
+    font-family: Syne, sans-serif;
+    font-size: 1.25vw;
+    font-weight: 400;
+}
+
+.site-navigation .navmenu-depth-2 .navmenu-link {
+    font-family: Syne, sans-serif;
+    font-size: 1.25vw;
+    font-weight: 400;
+}
+
+.site-navigation .navmenu-depth-2 .navmenu-link:hover,
+.site-navigation .navmenu-depth-2 .navmenu-link.navmenu-active {
+    color: #ffffff;
+    opacity: .8;
+}
+
+
+.faq.faq--regular {
+    max-width: none;
+}
+
+.faq--heading-size-medium .faq__heading {
+    font-family: Syne, sans-serif;
+    font-size: 5vw;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.faq__summary {
+    font-size: 1.875vw;
+    font-weight: 500;
+    line-height: 1.444;
+}
+
+.faq__answer-content {
+    font-size: 1.25vw;
+}
+
+.faq__summary-icon {
+    width: 2.1875vw;
+    height: auto;
+}
+
 @media screen and (max-width: 859px) {
     .page-title {
         font-size: 48px;
@@ -233,6 +325,39 @@ footer .newsletter button:not(.disabled):hover {
     .fourohfour--inner .button-primary svg {
         width: 22px;
     }
+
+    .mobile-nav-content .navmenu-depth-1 > .navmenu-item > .navmenu-link,
+    .mobile-nav-primary-content .navmenu-depth-1 > .navmenu-item > .navmenu-link,
+    .navmenu-meganav.navmenu-meganav--desktop .navmenu-item-text, .site-navigation .navmenu-depth-1 > li > a,
+    .site-navigation a, .site-navigation summary, .site-header-actions {
+        font-size: 14px;
+    }
+
+    .site-navigation .navmenu-depth-2 .navmenu-link {
+        font-size: 14px;
+    }
+
+    .faq--heading-size-medium .faq__heading {
+        font-size: 48px;
+    }
+
+    .faq__summary {
+        font-size: 18px;
+    }
+
+    .faq__answer-content {
+        font-size: 14px;
+    }
+
+    .faq__summary-icon {
+        width: 21px;
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .site-header-main {
+        align-items: center;
+    }
 }
 
 @media screen and (min-width: 860px) {
@@ -240,7 +365,7 @@ footer .newsletter button:not(.disabled):hover {
     .spr-summary-actions-newreview,
     .shopify-payment-button .shopify-payment-button__button--unbranded,
     .smart-payment-enabled .product-form--atc-button, .product-form--atc-button,
-    .utils-sortby--modal-button, .live-search-button, .back-to-top__button,
+    .utils-sortby--modal-button, .back-to-top__button,
     .article--excerpt-wrapper--featured .article--excerpt-button,
     .order-page__atc-button, .shopify-challenge__container .btn, .pxs-image-with-text-button,
     .slideshow-slide__button--secondary, .slideshow-slide__button--primary, .page__content button,
@@ -249,11 +374,24 @@ footer .newsletter button:not(.disabled):hover {
         font-size: 16px;
         padding: 16px 36px;
     }
+
+    .live-search-button {
+        padding: 16px 0;
+    }
 }
 
 @media screen and (min-width: 1024px) {
+    .site-header-nav--open .site-navigation-wrapper {
+        width: 70%;
+    }
+
+    .site-navigation {
+        justify-content: end;
+    }
+
     .site-header-main .live-search {
         margin-right: 0;
+        min-width: 200px;
     }
 
     .site-footer-block-title[data-accordion-trigger] {
@@ -262,6 +400,10 @@ footer .newsletter button:not(.disabled):hover {
 
     .site-footer-block-title-desktop {
         display: block;
+    }
+
+    .faq.faq--regular {
+        max-width: 90%;
     }
 }
 
@@ -290,5 +432,32 @@ footer .newsletter button:not(.disabled):hover {
 
     .fourohfour--inner .button-primary svg {
         width: 44px;
+    }
+
+    .mobile-nav-content .navmenu-depth-1 > .navmenu-item > .navmenu-link,
+    .mobile-nav-primary-content .navmenu-depth-1 > .navmenu-item > .navmenu-link,
+    .navmenu-meganav.navmenu-meganav--desktop .navmenu-item-text, .site-navigation .navmenu-depth-1 > li > a,
+    .site-navigation a, .site-navigation summary, .site-header-actions {
+        font-size: 24px;
+    }
+
+    .site-navigation .navmenu-depth-2 .navmenu-link {
+        font-size: 24px;
+    }
+
+    .faq--heading-size-medium .faq__heading {
+        font-size: 96px;
+    }
+
+    .faq__summary {
+        font-size: 36px;
+    }
+
+    .faq__answer-content {
+        font-size: 24px;
+    }
+
+    .faq__summary-icon {
+        width: 42px;
     }
 }

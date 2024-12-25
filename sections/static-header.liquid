@@ -130,7 +130,41 @@
           {% endif %}
         </a>
       </div>
+      <div
+        class="
+      site-navigation-wrapper
+      {% if shop.customer_accounts_enabled %}
+        site-navigation--has-actions
+      {% endif %}
+      {% if section.settings.full_width_header %}
+        site-header--full-width
+      {% endif %}
+    "
+        data-site-navigation
+        id="site-header-nav"
+      >
+        <nav
+          class="site-navigation"
+          aria-label="{{ 'general.accessibility.nav_main' | t }}"
+        >
+          {%
+            render 'navmenu',
+            menu: section.settings.menu,
+            blocks: section.blocks,
+          %}
 
+          {% if section.settings.secondary_menu != blank %}
+            {%
+              render 'navlist',
+              menu_list: linklists[section.settings.secondary_menu].links,
+              depth: 1,
+              max_depth: 1,
+              aria_expanded: true,
+              navmenu_classes: 'site-navigation__secondary-menu'
+            %}
+          {% endif %}
+        </nav>
+      </div>
       {%
         render 'live-search-form',
         quick_links: linklists[section.settings.quick_links],
@@ -218,45 +252,9 @@
     </div>
   </div>
 
-  <div
-    class="
-      site-navigation-wrapper
-      {% if shop.customer_accounts_enabled %}
-        site-navigation--has-actions
-      {% endif %}
-      {% if section.settings.full_width_header %}
-        site-header--full-width
-      {% endif %}
-    "
-    data-site-navigation
-    id="site-header-nav"
-  >
-    <nav
-      class="site-navigation"
-      aria-label="{{ 'general.accessibility.nav_main' | t }}"
-    >
-      {%
-        render 'navmenu',
-        menu: section.settings.menu,
-        blocks: section.blocks,
-      %}
-
-      {% if section.settings.secondary_menu != blank %}
-        {%
-          render 'navlist',
-          menu_list: linklists[section.settings.secondary_menu].links,
-          depth: 1,
-          max_depth: 1,
-          aria_expanded: true,
-          navmenu_classes: 'site-navigation__secondary-menu',
-        %}
-      {% endif %}
-    </nav>
-  </div>
-
   {%
     render 'site-mobile-nav',
-    blocks: section.blocks,
+    blocks: section.blocks
   %}
 </header>
 
