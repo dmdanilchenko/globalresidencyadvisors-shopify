@@ -19,25 +19,12 @@
         "button_link": ""
       }
     },
-    "custom_image_with_text_YeJmJA": {
-      "type": "custom-image-with-text",
-      "settings": {
-        "section_heading": "",
-        "home_type": false,
-        "desktop_height": "natural",
-        "mobile_height": "natural",
-        "heading": "Values",
-        "subheading": "<p>• <strong>Expertise<\/strong>: We offer extensive knowledge and firsthand experience in global residency, citizenship, and business setup.<\/p><p>• <strong>Transparency<\/strong>: Clear, honest communication at every step—no hidden fees or surprises.<\/p><p>• <strong>Personalisation<\/strong>: Customised strategies tailored to each client’s specific needs and goals.<\/p><p>• <strong>Commitment<\/strong>: From consultation to implementation, we provide full support, ensuring a smooth process<\/p>",
-        "text_alignment": "left",
-        "button_label": "Button",
-        "button_link": ""
-      }
-    },
     "custom_image_with_text_wGWLL4": {
       "type": "custom-image-with-text",
       "settings": {
         "section_heading": "",
         "home_type": false,
+        "image": "shopify:\/\/shop_images\/gold-premium-chat-icon-design-online-message-symbol-speech-bubble-talk-sign-contact-communication-isolated-white-background-with-golden-dialog-premium-service-balloon-3d-rendering_1.png",
         "desktop_height": "natural",
         "mobile_height": "natural",
         "heading": "Our Story",
@@ -47,11 +34,27 @@
         "button_link": ""
       }
     },
+    "custom_image_with_text_YeJmJA": {
+      "type": "custom-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "home_type": false,
+        "image": "shopify:\/\/shop_images\/glob_a9f2ce1a-fe58-4061-88c0-916c058c9871.png",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "heading": "Background of the Company\u2028",
+        "subheading": "<p>• <strong>Expertise<\/strong>: We offer extensive knowledge and firsthand experience in global residency, citizenship, and business setup.<\/p><p>• <strong>Transparency<\/strong>: Clear, honest communication at every step—no hidden fees or surprises.<\/p><p>• <strong>Personalisation<\/strong>: Customised strategies tailored to each client’s specific needs and goals.<\/p><p>• <strong>Commitment<\/strong>: From consultation to implementation, we provide full support, ensuring a smooth process<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
     "custom_image_with_text_rUFBrt": {
       "type": "custom-image-with-text",
       "settings": {
-        "section_heading": "Image with text",
+        "section_heading": "",
         "home_type": false,
+        "image": "shopify:\/\/shop_images\/realistic-golden-light-bulb-icon-3d-rendering-gray-round-key-button-interface-ui-ux-element.png",
         "desktop_height": "natural",
         "mobile_height": "natural",
         "heading": "Our Expertise\u2028",
@@ -65,8 +68,8 @@
   "order": [
     "main",
     "custom_image_with_text_JzerUt",
-    "custom_image_with_text_YeJmJA",
     "custom_image_with_text_wGWLL4",
+    "custom_image_with_text_YeJmJA",
     "custom_image_with_text_rUFBrt"
   ]
 }

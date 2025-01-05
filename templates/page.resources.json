@@ -4,36 +4,46 @@
       "type": "page",
       "settings": {}
     },
-    "pxs_image_with_text_overlay_7yWwGL": {
-      "type": "pxs-image-with-text-overlay",
+    "dynamic_rich_text_4fCcmH": {
+      "type": "dynamic-rich-text",
       "settings": {
-        "section_height": "medium",
-        "image": "shopify:\/\/shop_images\/1B897E9C-0EF9-4928-9A2C-7CF74F72B100.webp",
-        "title": "Coming Soon",
-        "text": "<p><strong>Our blog and news updates will be live soon – stay tuned!<\/strong><\/p>",
-        "content_position": "center-center",
-        "color": "#ffffff",
-        "overlay_background": "#121212",
-        "overlay_opacity": 50,
-        "link": "",
-        "button_text": ""
+        "width": "full-width",
+        "title": "",
+        "text": "<h1><strong>Сoming Soon<\/strong><\/h1>",
+        "heading_size": "large",
+        "text_alignment": "center"
       }
     },
-    "dynamic_blog_posts_bV9Vpj": {
-      "type": "dynamic-blog-posts",
-      "disabled": true,
+    "custom_image_with_text_cYbQwK": {
+      "type": "custom-image-with-text",
       "settings": {
-        "title": "Blog posts",
-        "blog": "",
-        "show_date": true,
-        "show_author": false,
-        "show_excerpt": true
+        "section_heading": "",
+        "home_type": false,
+        "image": "shopify:\/\/shop_images\/Photo.png",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "heading": "",
+        "subheading": "",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "dynamic_rich_text_TeaGfa": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "width": "regular",
+        "title": "",
+        "text": "<h4>Our blog and news updates will be live soon - stay tuned !<\/h4>",
+        "heading_size": "medium",
+        "text_alignment": "center"
       }
     }
   },
   "order": [
     "main",
-    "pxs_image_with_text_overlay_7yWwGL",
-    "dynamic_blog_posts_bV9Vpj"
+    "dynamic_rich_text_4fCcmH",
+    "custom_image_with_text_cYbQwK",
+    "dynamic_rich_text_TeaGfa"
   ]
 }
