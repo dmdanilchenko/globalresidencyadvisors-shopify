@@ -237,6 +237,8 @@
         {{ footer_right_column }}
       </div>
     </div>
+    {%- capture copyright_info -%}© {{ 'now' | date: '%Y' }} {{ shop.name }}{%- endcapture -%}
+    <div class="site-footer-item copyright">{{ copyright_info }}</div>
   </section>
 </footer>
 

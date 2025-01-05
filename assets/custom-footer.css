@@ -33,6 +33,14 @@
     line-height: normal;
 }
 
+.copyright {
+    margin: 1vw 0;
+    font-family: Syne, sans-serif;
+    font-size: 1.04vw;
+    font-weight: 500;
+    line-height: normal;
+}
+
 .site-footer-item--information .navmenu .navmenu-item:not(:last-child) {
     border-right: none;
     padding-right: 0;
@@ -67,6 +75,11 @@
     }
 
     .site-footer-item--information .navmenu .navmenu-item {
+        font-size: 12px;
+    }
+
+    .copyright {
+        margin: 10px 0;
         font-size: 12px;
     }
 
@@ -140,6 +153,11 @@
     }
 
     .site-footer-item--information .navmenu .navmenu-item {
+        font-size: 20px;
+    }
+
+    .copyright {
+        margin: 20px 0;
         font-size: 20px;
     }
 
