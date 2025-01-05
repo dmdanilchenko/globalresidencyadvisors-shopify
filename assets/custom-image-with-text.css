@@ -4,12 +4,15 @@
 }
 
 .image-with-text--custom .image-with-text__heading {
-    text-align: center;
     font-family: Syne, sans-serif;
     font-size: 4.17vw;
     font-weight: 700;
     line-height: 1.25;
     text-transform: capitalize;
+}
+
+.image-with-text--home-type.image-with-text--custom .image-with-text__heading {
+    text-align: center;
 }
 
 .image-with-text--custom .image-with-text__heading span {
@@ -24,14 +27,17 @@
 }
 
 .image-with-text--custom .image-with-text__text {
-    text-align: center;
     font-size: 1.46vw;
     line-height: 125%;
     letter-spacing: 0.56px;
     text-transform: capitalize;
 }
 
-.image-with-text--custom .image-with-text__image-wrapper {
+.image-with-text--home-type.image-with-text--custom .image-with-text__text {
+    text-align: center;
+}
+
+.image-with-text--home-type.image-with-text--custom .image-with-text__image-wrapper {
     margin-top: -20%;
 }
 

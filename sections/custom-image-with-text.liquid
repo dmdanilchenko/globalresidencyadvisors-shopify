@@ -168,6 +168,11 @@
     {% if section_classes != blank %}
       {{ section_classes }}
     {% endif %}
+    {% if section.settings.home_type %}
+      image-with-text--home-type
+    {% else %}
+      image-with-text--page-type
+    {% endif %}
   "
   {% if section_styles %}
     style="{{ section_styles }}"
@@ -258,6 +263,12 @@
       "type": "text",
       "label": "t:sections.image_with_text.section_heading.label",
       "default": "Image with text"
+    },
+    {
+      "type": "checkbox",
+      "id": "home_type",
+      "label": "Is Home Type",
+      "default": true
     },
     {
       "type": "header",
