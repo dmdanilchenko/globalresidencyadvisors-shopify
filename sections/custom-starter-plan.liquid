@@ -1,0 +1,80 @@
+<link rel="stylesheet" href="{{ 'custom-starter-plan.css' | asset_url }}">
+<section class="section--custom-starter-plan page-content" data-section-id="{{ section.id }}">
+  <div class="custom-starter-plan">
+    <div class="custom-starter-plan__header">
+      <h2>{{ section.settings.title }}</h2>
+    </div>
+    <div class="custom-starter-plan__content">
+      <div class="custom-starter-plan__content-title">{{ section.settings.content_title }}</div>
+      <div class="custom-starter-plan__content-inner">
+        <ul>
+          {% for block in section.blocks %}
+            <li>
+              {% render "icon-tick" %}
+              <span>{{ block.settings.text }}</span>
+            </li>
+          {% endfor %}
+        </ul>
+        <img src="{{ section.settings.image | img_url: '1000x1000' }}" alt="{{ section.settings.image.alt }}">
+      </div>
+      <div class="custom-starter-plan__button">
+        <a href="{{ section.settings.block_link }}" class="button-primary">{{ section.settings.button_text }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Custom Starter Plan",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Get Instant Access for Just $199"
+    },
+    {
+      "type": "html",
+      "id": "content_title",
+      "label": "Content Title",
+      "default": "<h3>Starter Plan: Global Starter Access$199 (One-Time) + $9.95/month</h3>"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "url",
+      "id": "block_link",
+      "label": "t:sections.grid.blocks.promotional_item.block_link.label"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "t:sections.grid.blocks.promotional_item.button_text.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "feature",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "Your Foot in the Door to Global Freedom"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Advanced",
+      "name": "Custom Starter Plan"
+    }
+  ]
+}
+{% endschema %}

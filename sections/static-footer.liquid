@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="{{ 'custom-footer.css' | asset_url }}">
 <script
   type="application/json"
   data-section-id="{{ section.id }}"
@@ -231,15 +232,6 @@
               %}
             </nav>
           {%- endif -%}
-
-          <p class="site-footer-credits">
-            {%- assign year = 'now' | date: '%Y' -%}
-            {{ 'footer.general.copyright_html' | t: year: year, shop_name: shop.name }}
-          </p>
-
-          <p class="site-footer-credits">
-            {{ powered_by_link }}
-          </p>
         </div>
 
         {{ footer_right_column }}
@@ -367,6 +359,24 @@
           "id": "text",
           "label": "t:sections.footer.blocks.newsletter.text.label",
           "default": "<p>Invite customers to join your mailing list.</p>"
+        }
+      ]
+    },
+    {
+      "type": "custom_html",
+      "name": "Custom html",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.footer.blocks.rich_text.title.label",
+          "default": "Rich text"
+        },
+        {
+          "type": "html",
+          "id": "text",
+          "label": "t:sections.footer.blocks.rich_text.text.label",
+          "default": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.</p>"
         }
       ]
     }

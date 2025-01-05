@@ -1,245 +1,101 @@
 {
   "sections": {
-    "dynamic_slideshow": {
-      "type": "dynamic-slideshow",
-      "blocks": {
-        "slide-1": {
-          "type": "slide",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/05716F65-D5DB-4ED5-A46C-97B0ED95757E.webp",
-            "mobile_background_image": "shopify:\/\/shop_images\/05716F65-D5DB-4ED5-A46C-97B0ED95757E.webp",
-            "title": "Create Your Global Freedom Blueprint – Secure Residency, Optimize Taxes, and Build a Backup Plan",
-            "text": "Done-for-you solutions to set up offshore residencies, businesses, and emergency plans. Affordable for every stage of your journey",
-            "color": "#ffffff",
-            "link": "",
-            "text_alignment": "center",
-            "button_one_label": "Book Free Consultation Here",
-            "button_one_link": "shopify:\/\/products\/free-initial-screening-1",
-            "button_one_style": "primary",
-            "button_two_label": "",
-            "button_two_link": "",
-            "button_two_style": "secondary",
-            "show_overlay": true,
-            "overlay_color": "#2f3841",
-            "overlay_opacity": 50
-          }
-        }
-      },
-      "block_order": [
-        "slide-1"
-      ],
+    "custom_image_with_text_feiCAz": {
+      "type": "custom-image-with-text",
       "settings": {
-        "enable_autoplay": true,
-        "autoplay_duration": 9,
-        "slideshow_width": "full",
-        "slideshow_height": "medium",
-        "slideshow_height_mobile": "x-large",
-        "slideshow_text_below_image": false
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/globe_v3.png",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "heading": "Create Your\u2028<br>\n<span>Global Freedom Blueprint<br>\nSecure Residency<br>\nOptimize Taxes<\/span><br>\nBuild a Backup Plan",
+        "subheading": "<p>Done-for-you solutions to set up offshore residencies, businesses, and emergency plans. Affordable for every stage of your journey<\/p>",
+        "text_alignment": "left",
+        "button_label": "Book Free Consultation",
+        "button_link": "shopify:\/\/products\/free-initial-screening-1"
       }
     },
-    "dynamic_slideshow_a4Qznc": {
-      "type": "dynamic-slideshow",
+    "custom_promo_grid_DVGdXp": {
+      "type": "custom-promo-grid",
       "blocks": {
-        "slide_xhBttq": {
-          "type": "slide",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/global_access_13fa7621-a853-448e-bd3f-4c1d16d00df1.png",
-            "mobile_background_image": "shopify:\/\/shop_images\/global_access_13fa7621-a853-448e-bd3f-4c1d16d00df1.png",
-            "title": "Build Your Global Freedom in Just 30 Days",
-            "text": "From Residency to Business Solutions, We Handle It All",
-            "color": "#ffffff",
-            "link": "",
-            "text_alignment": "center",
-            "button_one_label": "Learn More",
-            "button_one_link": "shopify:\/\/pages\/services",
-            "button_one_style": "primary",
-            "button_two_label": "",
-            "button_two_link": "",
-            "button_two_style": "primary",
-            "show_overlay": true,
-            "overlay_color": "#2f3841",
-            "overlay_opacity": 50
-          }
-        },
-        "slide_8fnA7T": {
-          "type": "slide",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/80CE0317-269D-47DC-A8E8-704FF0737CFB.png",
-            "mobile_background_image": "shopify:\/\/shop_images\/80CE0317-269D-47DC-A8E8-704FF0737CFB.png",
-            "title": "Global Starter Access",
-            "text": "Start Now for Just $199 – Get Expert Guidance +$200 Credit Toward Any Upgrade.",
-            "color": "#ffffff",
-            "link": "",
-            "text_alignment": "center",
-            "button_one_label": "Learn More",
-            "button_one_link": "shopify:\/\/pages\/global-starter-access",
-            "button_one_style": "primary",
-            "button_two_label": "",
-            "button_two_link": "",
-            "button_two_style": "primary",
-            "show_overlay": true,
-            "overlay_color": "#2f3841",
-            "overlay_opacity": 70
-          }
-        },
-        "slide_bgcF8q": {
-          "type": "slide",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/holding-a-stack-of-money.jpg",
-            "mobile_background_image": "shopify:\/\/shop_images\/holding-a-stack-of-money.jpg",
-            "title": "100% Money-Back Guarantee",
-            "text": "If we can’t deliver on our promises, we refundyour investment",
-            "color": "#ffffff",
-            "link": "",
-            "text_alignment": "center",
-            "button_one_label": "",
-            "button_one_link": "",
-            "button_one_style": "primary",
-            "button_two_label": "",
-            "button_two_link": "",
-            "button_two_style": "primary",
-            "show_overlay": true,
-            "overlay_color": "#2f3841",
-            "overlay_opacity": 50
-          }
-        }
-      },
-      "block_order": [
-        "slide_xhBttq",
-        "slide_8fnA7T",
-        "slide_bgcF8q"
-      ],
-      "settings": {
-        "enable_autoplay": true,
-        "autoplay_duration": 5,
-        "slideshow_width": "full",
-        "slideshow_height": "small",
-        "slideshow_height_mobile": "small",
-        "slideshow_text_below_image": true
-      }
-    },
-    "dynamic_promo_grid_GHKB8w": {
-      "type": "dynamic-promo-grid",
-      "blocks": {
-        "promotion_AdWYzn": {
+        "promotion_GxGpfN": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4BEDCC9E-4B86-4E04-89E3-455BA04F095F.webp",
+            "image": "shopify:\/\/shop_images\/82a5559fb1dd0d555a66edd7389191ae.png",
             "title": "Personal Residency Solutions",
-            "text": "Secure residency in 1, 2, or 3 countries with tailored solutions that meet your global living goals.",
+            "text": "Secure residency in 1, 2,\nor 3 countries with tailored solutions that meet your global living goals.",
             "color": "#ffffff",
             "block_link": "shopify:\/\/pages\/personal-residency-solutions",
-            "button_text": "Learn More",
+            "button_text": "learn More",
             "button_style": "primary",
-            "show_overlay": true,
-            "background": "#2f3841",
+            "show_overlay": false,
+            "background": "",
             "opacity": 50
           }
         },
-        "promotion_VHThxT": {
+        "promotion_nj8Rft": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/135BDB3C-B212-4564-9B39-83655592D651.webp",
+            "image": "shopify:\/\/shop_images\/7c0d1cdc9e6c6b5b03c5d89c1260754a.png",
             "title": "Business Offshore Solutions",
             "text": "Expand your business globally with expert-led setups in top jurisdictions and access to offshore banking.",
             "color": "#ffffff",
             "block_link": "shopify:\/\/pages\/business-offshore-solutions",
-            "button_text": "Learn More",
+            "button_text": "learn More",
             "button_style": "primary",
-            "show_overlay": true,
-            "background": "#2f3841",
-            "opacity": 30
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
           }
         },
-        "promotion_wN67VU": {
+        "promotion_F96dzp": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3B1F9C7E-EC51-45A9-8CBE-2F72217F9030.webp",
+            "image": "shopify:\/\/shop_images\/530f1238a33d06006fe623462fadf757.png",
             "title": "Global Starter Access",
             "text": "Start your offshore journey for just $199 with essential guides and insider updates.",
             "color": "#ffffff",
             "block_link": "shopify:\/\/pages\/global-starter-access",
-            "button_text": "Learn More",
+            "button_text": "learn More",
             "button_style": "primary",
-            "show_overlay": true,
-            "background": "#2f3841",
+            "show_overlay": false,
+            "background": "",
             "opacity": 50
           }
         },
-        "promotion_3yT8D3": {
+        "promotion_WpyaMa": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/B9E2DCD1-F9E0-442F-9406-75C7A3FC82FA.png",
+            "image": "shopify:\/\/shop_images\/Group_54_12549df3-f539-4b68-bb80-1eefe907244b.png",
             "title": "Emergency Backup Plans",
             "text": "Prepare for any situation with comprehensive international backup strategies, from banking to property.",
             "color": "#ffffff",
             "block_link": "shopify:\/\/pages\/emergency-backup-plans",
-            "button_text": "Learn More",
+            "button_text": "learn More",
             "button_style": "primary",
-            "show_overlay": true,
-            "background": "#2f3841",
-            "opacity": 30
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
           }
         }
       },
       "block_order": [
-        "promotion_AdWYzn",
-        "promotion_VHThxT",
-        "promotion_wN67VU",
-        "promotion_3yT8D3"
+        "promotion_GxGpfN",
+        "promotion_nj8Rft",
+        "promotion_F96dzp",
+        "promotion_WpyaMa"
       ],
       "settings": {
-        "title": "Our Services",
+        "title": "our services",
+        "use_background": false,
+        "use_dividers": true,
         "section_height": "small",
         "section_columns": 4,
         "text_alignment": "top-left"
       }
     },
-    "dynamic_highlights_banner": {
-      "type": "dynamic-highlights-banner",
-      "blocks": {
-        "highlight-2": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-cell-phone",
-            "title": "Give Us A Call",
-            "text": "<p>+1 772 289 9625<\/p>",
-            "link": "https:\/\/wa.me\/wa.me\/17722899625"
-          }
-        },
-        "highlight-3": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-chat-alternate",
-            "title": "Chat With Us",
-            "text": "<p>We offer 24-hour chat support<\/p>",
-            "link": "shopify:\/\/pages\/chat-with-us"
-          }
-        },
-        "highlight_eXCqGm": {
-          "type": "highlight",
-          "settings": {
-            "icon": "none",
-            "title": "",
-            "text": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "highlight-2",
-        "highlight-3",
-        "highlight_eXCqGm"
-      ],
-      "settings": {
-        "section_spacing": false,
-        "section_width": "full-width",
-        "icon_layout": "center",
-        "color": "#ffffff",
-        "icon_color": "#d8a374",
-        "background_color": "#2f3841",
-        "mobile_layout": "grid"
-      }
+    "custom_contact_form_NGGGLq": {
+      "type": "custom-contact-form",
+      "settings": {}
     },
     "dynamic_promo_grid_DwCWPc": {
       "type": "dynamic-promo-grid",
@@ -249,7 +105,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/1742FEA6-C277-49DC-9292-E6184EB5436B.webp",
             "title": "Expert Global Guidance",
-            "text": "Leverage our in-depth knowledge across multiple countries to navigate complex residency, business, and investment processes with ease.",
+            "description": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news.<\/p>",
             "color": "#ffffff",
             "block_link": "",
             "button_text": "",
@@ -264,7 +120,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/4590EC94-C4BA-4442-A277-037C86BC1BDC.webp",
             "title": "Personalised Solutions",
-            "text": "We tailor every step of the process to your unique goals, ensuring that you receive advice and solutions specifically suited to your needs.",
+            "description": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news.<\/p>",
             "color": "#ffffff",
             "block_link": "",
             "button_text": "",
@@ -279,7 +135,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/F77BD7DC-5FA3-4528-A6BC-FA841CC3D648.webp",
             "title": "End-to-End Support",
-            "text": "From your initial consultation to the final outcome, we provide comprehensive support throughout the entire process, making every step smoother.",
+            "description": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news.<\/p>",
             "color": "#ffffff",
             "block_link": "",
             "button_text": "",
@@ -294,7 +150,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/7609616E-3C4C-40F4-9A51-1E8C5294869A.webp",
             "title": "Transparent Service",
-            "text": "No hidden fees or surprises—our clear and upfront communication ensures that you understand every part of the process from start to finish.",
+            "description": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news.<\/p>",
             "color": "#ffffff",
             "block_link": "",
             "button_text": "",
@@ -311,8 +167,89 @@
         "promotion_garjMz",
         "promotion_3VhGPY"
       ],
+      "disabled": true,
+      "settings": {
+        "show_redesigned": true,
+        "title": "Values",
+        "section_height": "small",
+        "section_columns": 4,
+        "text_alignment": "top-left"
+      }
+    },
+    "custom_promo_grid_7YhUgC": {
+      "type": "custom-promo-grid",
+      "blocks": {
+        "promotion_KQFgB3": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_d4e89303-bfe6-46aa-b24e-6f1cfb0c7440.png",
+            "title": "Expert Global Guidance",
+            "text": "Leverage our in-depth knowledge across multiple countries to navigate complex residency, business, and investment processes with ease",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_DydNAz": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group2.png",
+            "title": "Personalised Solutions",
+            "text": "We tailor every step of the process to your unique goals, ensuring that you receive advice and solutions specifically suited to your needs.",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_CEFNkh": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group.png",
+            "title": "End-to-End Support",
+            "text": "From your initial consultation to the final outcome, we provide comprehensive support throughout the entire process, making every step smoother.",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_ziaWMY": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector.png",
+            "title": "Transparent Service",
+            "text": "No hidden fees or\nsurprises--our clear and upfront communication\nensures that you understand every part of the process from start to finish.",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion_KQFgB3",
+        "promotion_DydNAz",
+        "promotion_CEFNkh",
+        "promotion_ziaWMY"
+      ],
       "settings": {
         "title": "Values",
+        "use_background": false,
+        "use_dividers": false,
         "section_height": "small",
         "section_columns": 4,
         "text_alignment": "top-left"
@@ -320,10 +257,10 @@
     }
   },
   "order": [
-    "dynamic_slideshow",
-    "dynamic_slideshow_a4Qznc",
-    "dynamic_promo_grid_GHKB8w",
-    "dynamic_highlights_banner",
-    "dynamic_promo_grid_DwCWPc"
+    "custom_image_with_text_feiCAz",
+    "custom_promo_grid_DVGdXp",
+    "custom_contact_form_NGGGLq",
+    "dynamic_promo_grid_DwCWPc",
+    "custom_promo_grid_7YhUgC"
   ]
 }

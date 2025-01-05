@@ -11,50 +11,41 @@
     ]
   }
 </script>
-
-<section class="promo-grid--container {% if section.settings.show_redesigned %}promo-grid--container-redesigned{% endif %}">
-  {% if section.settings.title != blank %}
-    <h2 class="home-section--title">
-      {{ section.settings.title | escape }}
-    </h2>
-  {% endif %}
-
-  {%- capture classes -%}
-    home-section--content
-    promo-grid--height-{{ section.settings.section_height }}
-  {%- endcapture -%}
-  <div class="{{ classes | strip_newlines }}">
-    {% if section.blocks.size > 0 %}
-      <div class="promo-grid--inner promo-grid__columns--{{ section.settings.section_columns }}">
-        {% if section.settings.show_redesigned %}
-          {% for block in section.blocks %}
-            {%
-              render 'custom-promo-block-type2',
-              block: block,
-              text_alignment: section.settings.text_alignment,
-              index: forloop.index
-            %}
-          {% endfor %}
-        {% else %}
-          {% for block in section.blocks %}
-            {%
-              render 'promo-block',
-              block: block,
-              text_alignment: section.settings.text_alignment,
-              index: forloop.index
-            %}
-          {% endfor %}
-        {% endif %}
-      </div>
+<div class="promo-grid--wrapper">
+  <section
+    class="promo-grid--container promo-grid--container-custom {% if section.settings.use_background %}promo-grid--container-use-bg{% endif %} {% if section.settings.use_dividers %}promo-grid--container-use-dividers{% endif %}">
+    {% if section.settings.title != blank %}
+      <h2 class="home-section--title">
+        {{ section.settings.title | escape }}
+      </h2>
     {% endif %}
-  </div>
 
-  {%
-    render 'promo-block-background',
-    blocks: section.blocks
-  %}
-</section>
+    {%- capture classes -%}
+      home-section--content
+      promo-grid--height-{{ section.settings.section_height }}
+    {%- endcapture -%}
 
+    <div class="{{ classes | strip_newlines }}">
+      {% if section.blocks.size > 0 %}
+        <div class="promo-grid--inner promo-grid__columns--{{ section.settings.section_columns }}">
+          {% for block in section.blocks %}
+            {%
+              render 'custom-promo-block',
+              block: block,
+              text_alignment: section.settings.text_alignment,
+              index: forloop.index
+            %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+
+    {%
+      render 'promo-block-background',
+      blocks: section.blocks
+    %}
+  </section>
+</div>
 {% schema %}
 {
   "name": "t:sections.grid.name",
@@ -62,16 +53,22 @@
   "max_blocks": 20,
   "settings": [
     {
-      "type": "checkbox",
-      "id": "show_redesigned",
-      "label": "Redesign",
-      "default": true
-    },
-    {
       "type": "text",
       "id": "title",
       "label": "t:sections.grid.title.label",
       "default": "Grid"
+    },
+    {
+      "type": "checkbox",
+      "id": "use_background",
+      "label": "Use background",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "use_dividers",
+      "label": "Use dividers",
+      "default": true
     },
     {
       "id": "section_height",
@@ -168,10 +165,10 @@
           "default": "Grid"
         },
         {
-          "type": "richtext",
-          "id": "description",
-          "label": "Description",
-          "default": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news.</p>"
+          "type": "textarea",
+          "id": "text",
+          "label": "t:sections.grid.blocks.promotional_item.text.label",
+          "default": "Use this section to welcome customers to your store, say a bit about your brand, or share news."
         },
         {
           "type": "color",
@@ -234,7 +231,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.grid.presets.grid.name",
+      "name": "Custom Grid",
       "category": "t:sections.grid.presets.grid.category",
       "blocks": [
         {

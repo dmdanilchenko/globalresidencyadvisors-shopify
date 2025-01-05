@@ -1,3 +1,9 @@
+/* 19.2 ratio to convert px to vw */
+.page-title {
+    font-size: 5vw;
+    font-weight: 700;
+}
+
 .disclosure-list .disclosure-list__item {
     color: var(--disclosure-toggle-text-color);
 }
@@ -16,6 +22,14 @@
 
 .form-field [aria-invalid] {
     border-color: red;
+}
+
+.site-header-right {
+    display: none;
+}
+
+.site-header {
+    box-shadow: none;
 }
 
 .spr-content .spr-pagination a, .spr-content .spr-review .spr-review-footer a,
@@ -100,12 +114,350 @@
     margin-bottom: .3125rem;
 }
 
+.age-gate__confirm_btn,
+.spr-summary-actions-newreview,
+.shopify-payment-button .shopify-payment-button__button--unbranded,
+.smart-payment-enabled .product-form--atc-button, .product-form--atc-button,
+.utils-sortby--modal-button, .live-search-button, .back-to-top__button,
+.article--excerpt-wrapper--featured .article--excerpt-button,
+.order-page__atc-button, .shopify-challenge__container .btn, .pxs-image-with-text-button,
+.slideshow-slide__button--secondary, .slideshow-slide__button--primary, .page__content button,
+.image-with-text__button, .faq__categories-list-item-link, .countdown-timer__caption-button.countdown-timer__caption-button--secondary,
+.countdown-timer__caption-button.countdown-timer__caption-button--primary, .button-secondary, .button-primary, .productgrid--no-results-button {
+    color: #FFF;
+    font-family: Syne;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    background: #8A481D;
+    border: 1px solid #8A481D;
+}
+
+.button-primary:not(.disabled):hover {
+    background: rgb(138 72 29 / 50%);
+    border: 1px solid rgb(138 72 29 / 50%);
+}
+
+
+.spr-form .spr-form-input-text, .spr-form .spr-form-input-email,
+.spr-form .spr-form-input-textarea, .options-selection__option-value-input + .options-selection__option-value-name,
+.options-selection__option-value-input + .options-selection__option-swatch-wrapper,
+.productgrid--sidebar-item-grid .filter-item:not(.filter-item--toggle-more),
+.form-field-input, .form-field-select, .options-selection__input-select, .age-gate__select {
+    background: none;
+    border: 2px solid #8A481D;
+}
+
+.spr-form .spr-form-input-text:not(.live-search-form-field):hover, .spr-form .spr-form-input-email:not(.live-search-form-field):hover,
+.spr-form .spr-form-input-textarea:not(.live-search-form-field):hover, .form-field-input:not(.live-search-form-field):hover {
+    border: 2px solid #8A481D;
+}
+
+footer .newsletter .form-field-input {
+    border: 2px solid #fff;
+}
+
+footer .newsletter .form-field-input:not(.live-search-form-field):hover {
+    border: 2px solid #fff;
+}
+
+footer .newsletter button {
+    border: 1px solid #fff;
+}
+
+footer .newsletter button:active,
+footer .newsletter button:not(.disabled):hover {
+    background: #d49864;
+    border: 1px solid #d49864;
+}
+
+.site-footer-block-title-desktop {
+    display: none;
+}
+
+.social-link + .social-link {
+    margin-left: 1.56rem;
+}
+
+.fourohfour-title p {
+    text-align: center;
+    font-family: Syne, sans-serif;
+    font-size: 5.73vw;
+    font-weight: 500;
+    line-height: 119.988%;
+    letter-spacing: 0.1146em;
+    margin-bottom: 0;
+}
+
+.fourohfour-title h1 {
+    font-family: "STIX Two Math", serif;
+    font-size: 20.8vw;
+    margin-bottom: 0;
+}
+
+.fourohfour-title h2 {
+    font-family: Syne, sans-serif;
+    font-size: 5.73vw;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.fourohfour--inner .button-primary {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 22px;
+}
+
+.fourohfour--inner .button-primary svg {
+    width: 2.3vw;
+}
+
+.live-search-form-field:not(:focus,:active) {
+    color: #837D7D;
+    font-family: Syne, sans-serif;
+    font-weight: 700;
+}
+
+.live-search-form-field {
+    color: #837D7D;
+    font-family: Syne, sans-serif;
+    font-weight: 700;
+}
+
+.live-search-button {
+    background: transparent;
+    border-color: transparent;
+    border-radius: 0;
+}
+
+.live-search {
+    height: 54px;
+}
+
+.live-search-form {
+    border: 2px solid #8A481D;
+    border-radius: 0;
+}
+
+.live-search-form .form-field {
+    height: 54px;
+}
+
+.live-search-form-field {
+    border-radius: 0;
+}
+
+.mobile-nav-content .navmenu-depth-1 > .navmenu-item > .navmenu-link,
+.mobile-nav-primary-content .navmenu-depth-1 > .navmenu-item > .navmenu-link,
+.navmenu-meganav.navmenu-meganav--desktop .navmenu-item-text, .site-navigation .navmenu-depth-1 > li > a,
+.site-navigation a, .site-navigation summary, .site-header-actions {
+    font-family: Syne, sans-serif;
+    font-size: 1.25vw;
+    font-weight: 400;
+}
+
+.site-navigation .navmenu-depth-2 .navmenu-link {
+    font-family: Syne, sans-serif;
+    font-size: 1.25vw;
+    font-weight: 400;
+}
+
+.site-navigation .navmenu-depth-2 .navmenu-link:hover,
+.site-navigation .navmenu-depth-2 .navmenu-link.navmenu-active {
+    color: #ffffff;
+    opacity: .8;
+}
+
+
+.faq.faq--regular {
+    max-width: none;
+}
+
+.faq--heading-size-medium .faq__heading {
+    font-family: Syne, sans-serif;
+    font-size: 5vw;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.faq__summary {
+    font-size: 1.875vw;
+    font-weight: 500;
+    line-height: 1.444;
+}
+
+.faq__answer-content {
+    font-size: 1.25vw;
+}
+
+.faq__summary-icon {
+    width: 2.1875vw;
+    height: auto;
+}
+
+@media screen and (max-width: 859px) {
+    .page-title {
+        font-size: 48px;
+    }
+
+    .social-link + .social-link {
+        margin-left: 16px;
+    }
+
+    .fourohfour-title p {
+        font-size: 55px;
+        letter-spacing: 1.1px;
+    }
+
+    .fourohfour-title h1 {
+        font-size: 200px;
+    }
+
+    .fourohfour-title h2 {
+        font-size: 48px;
+    }
+
+
+    .fourohfour--inner .button-primary svg {
+        width: 22px;
+    }
+
+    .mobile-nav-content .navmenu-depth-1 > .navmenu-item > .navmenu-link,
+    .mobile-nav-primary-content .navmenu-depth-1 > .navmenu-item > .navmenu-link,
+    .navmenu-meganav.navmenu-meganav--desktop .navmenu-item-text, .site-navigation .navmenu-depth-1 > li > a,
+    .site-navigation a, .site-navigation summary, .site-header-actions {
+        font-size: 14px;
+    }
+
+    .site-navigation .navmenu-depth-2 .navmenu-link {
+        font-size: 14px;
+    }
+
+    .faq--heading-size-medium .faq__heading {
+        font-size: 48px;
+    }
+
+    .faq__summary {
+        font-size: 18px;
+    }
+
+    .faq__answer-content {
+        font-size: 14px;
+    }
+
+    .faq__summary-icon {
+        width: 21px;
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .site-header-main {
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    .age-gate__confirm_btn,
+    .spr-summary-actions-newreview,
+    .shopify-payment-button .shopify-payment-button__button--unbranded,
+    .smart-payment-enabled .product-form--atc-button, .product-form--atc-button,
+    .utils-sortby--modal-button, .back-to-top__button,
+    .article--excerpt-wrapper--featured .article--excerpt-button,
+    .order-page__atc-button, .shopify-challenge__container .btn, .pxs-image-with-text-button,
+    .slideshow-slide__button--secondary, .slideshow-slide__button--primary, .page__content button,
+    .image-with-text__button, .faq__categories-list-item-link, .countdown-timer__caption-button.countdown-timer__caption-button--secondary,
+    .countdown-timer__caption-button.countdown-timer__caption-button--primary, .button-secondary, .button-primary, .productgrid--no-results-button {
+        font-size: 16px;
+        padding: 16px 36px;
+    }
+
+    .live-search-button {
+        padding: 16px 0;
+    }
+}
+
 @media screen and (min-width: 1024px) {
+    .site-header-nav--open .site-navigation-wrapper {
+        width: 70%;
+    }
+
+    .site-navigation {
+        justify-content: end;
+    }
+
     .site-header-main .live-search {
         margin-right: 0;
+        min-width: 200px;
     }
 
     .site-footer-block-title[data-accordion-trigger] {
         display: none;
+    }
+
+    .site-footer-block-title-desktop {
+        display: block;
+    }
+
+    .faq.faq--regular {
+        max-width: 90%;
+    }
+}
+
+
+@media screen and (min-width: 1800px) {
+    .page-title {
+        font-size: 96px;
+    }
+
+    .social-link + .social-link {
+        margin-left: 30px;
+    }
+
+    .fourohfour-title p {
+        font-size: 110px;
+        letter-spacing: 2.2px;
+    }
+
+    .fourohfour-title h1 {
+        font-size: 400px;
+    }
+
+    .fourohfour-title h2 {
+        font-size: 96px;
+    }
+
+    .fourohfour--inner .button-primary svg {
+        width: 44px;
+    }
+
+    .mobile-nav-content .navmenu-depth-1 > .navmenu-item > .navmenu-link,
+    .mobile-nav-primary-content .navmenu-depth-1 > .navmenu-item > .navmenu-link,
+    .navmenu-meganav.navmenu-meganav--desktop .navmenu-item-text, .site-navigation .navmenu-depth-1 > li > a,
+    .site-navigation a, .site-navigation summary, .site-header-actions {
+        font-size: 24px;
+    }
+
+    .site-navigation .navmenu-depth-2 .navmenu-link {
+        font-size: 24px;
+    }
+
+    .faq--heading-size-medium .faq__heading {
+        font-size: 96px;
+    }
+
+    .faq__summary {
+        font-size: 36px;
+    }
+
+    .faq__answer-content {
+        font-size: 24px;
+    }
+
+    .faq__summary-icon {
+        width: 42px;
     }
 }

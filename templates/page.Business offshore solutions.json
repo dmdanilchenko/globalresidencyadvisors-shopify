@@ -10,9 +10,9 @@
         "promotion_M3Ki4b": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/92A5EC9D-AA64-404D-B481-FEC3572F9A10.png",
+            "image": "shopify:\/\/shop_images\/4.png",
             "title": "Basic Business ($3,000)",
-            "text": "✔ Company registration in one jurisdiction.\n✔ Business bank account.\n✔ BONUS: “10 Tax Strategies for Entrepreneurs” E-Book ($199 Value).",
+            "description": "<ul><li>Company registration in one jurisdiction<\/li><li>Business bank account<\/li><li>BONUS: \"10 Tax Strategies for<br\/>Entrepreneurs\" E-Book ($199 Value).<\/li><\/ul><p><\/p>",
             "color": "#ffffff",
             "block_link": "shopify:\/\/products\/free-initial-screening-1",
             "button_text": "Book Free Consultation Now",
@@ -25,9 +25,9 @@
         "promotion_DBmmH4": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4A6A8253-6681-46A4-BA24-A13F8FF5699F.png",
+            "image": "shopify:\/\/shop_images\/5.png",
             "title": "Standard Business ($7,000)",
-            "text": "✔ Business setup in two jurisdictions.\n✔ Two business bank accounts.\n✔ UAE residency visa.\n✔ BONUS: “Done-for-You EIN & Compliance Guide” ($499 Value).",
+            "description": "<ul><li>Business setup in two jurisdictions<\/li><li>Two business bank accounts<\/li><li>UAE residency visa<\/li><li>BONUS: \"Done-for-You EIN &<br\/>Compliance Guide\" ($499 Value).<\/li><\/ul>",
             "color": "#ffffff",
             "block_link": "shopify:\/\/products\/free-initial-screening-1",
             "button_text": "Book Free Consultation Now",
@@ -40,9 +40,9 @@
         "promotion_VftVGW": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EE19C561-AAA3-4018-8D3E-E130E2E8077D.png",
+            "image": "shopify:\/\/shop_images\/6.png",
             "title": "Premium Business ($12,000)",
-            "text": "✔ Business setup in three jurisdictions.\n✔ Three business bank accounts.\n✔ Advanced tax planning and concierge support.\n✔ BONUS: Lifetime Annual Compliance Support ($1,000 Value).",
+            "description": "<ul><li>business setup in three jurisdictions<\/li><li>Three business bank accounts<\/li><li>Advanced tax planning and concierge support<\/li><li>bonus: Lifetime Annual<br\/>Compliance Support ($1,000 Value)<\/li><\/ul>",
             "color": "#ffffff",
             "block_link": "shopify:\/\/products\/free-initial-screening-1",
             "button_text": "Book Free Consultation Now",
@@ -59,7 +59,8 @@
         "promotion_VftVGW"
       ],
       "settings": {
-        "title": "",
+        "show_redesigned": true,
+        "title": "Schedule Your Business Strategy Call Today",
         "section_height": "small",
         "section_columns": 3,
         "text_alignment": "top-left"

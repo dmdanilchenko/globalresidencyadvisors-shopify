@@ -4,6 +4,7 @@
   "sections": {
     "announcement-bar": {
       "type": "static-announcement",
+      "disabled": true,
       "settings": {
         "show_announcement": true,
         "homepage_announcement": false,
@@ -16,6 +17,7 @@
     },
     "utility-bar": {
       "type": "static-utility-bar",
+      "disabled": true,
       "settings": {
         "use_full_width": false,
         "background_color": "#d8a374",
@@ -35,6 +37,7 @@
       "blocks": {
         "1517255946962": {
           "type": "meganav_images",
+          "disabled": true,
           "settings": {
             "meganav_trigger": "",
             "text_1": "",
@@ -49,6 +52,7 @@
         },
         "ff9e6854-1318-4c95-a027-c4108d1e961d": {
           "type": "meganav_images",
+          "disabled": true,
           "settings": {
             "meganav_trigger": "",
             "text_1": "",
@@ -63,6 +67,7 @@
         },
         "b1255353-a160-49e4-83e5-58b026912534": {
           "type": "meganav_sidenav",
+          "disabled": true,
           "settings": {
             "meganav_trigger": "",
             "submenu_layout": "text_columns",
@@ -80,7 +85,7 @@
       "settings": {
         "sticky_header": true,
         "full_width_header": false,
-        "logo": "shopify:\/\/shop_images\/Picture_1.png",
+        "logo": "shopify:\/\/shop_images\/74070aa4a28d9d2a2be9fda40c5fbf74.png",
         "logo_height": 100,
         "logo_width": 250,
         "filter_search_by": "disabled",

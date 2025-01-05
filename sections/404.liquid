@@ -5,16 +5,19 @@
 {% endif %}
 
 <section class="fourohfour--container">
+
   <header class="fourohfour-title">
-    <h1>{{ '404.general.title' | t }}</h1>
+    <p>Oops!</p>
+    <h1>404</h1>
+    <h2>{{ '404.general.title' | t }}</h2>
   </header>
 
   <div class="fourohfour--inner">
-    <p>{{ '404.general.text' | t }}</p>
 
     {% if settings.continue_url_404 != blank %}
-      <a class="button-primary" href="{{ continue_shopping_url }}">
-        {{ '404.general.continue_shopping' | t }}
+      <a class="button-primary" href="/">
+        {{ '404.general.home' | t }}
+        {%  render 'icon-arrow-right' %}
       </a>
     {% endif %}
   </div>

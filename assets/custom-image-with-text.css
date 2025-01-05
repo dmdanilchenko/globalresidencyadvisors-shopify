@@ -1,0 +1,82 @@
+/* 19.2 ratio to convert px to vw */
+.image-with-text--custom .image-with-text__container {
+    flex-flow: column;
+}
+
+.image-with-text--custom .image-with-text__heading {
+    font-family: Syne, sans-serif;
+    font-size: 4.17vw;
+    font-weight: 700;
+    line-height: 1.25;
+    text-transform: capitalize;
+}
+
+.image-with-text--home-type.image-with-text--custom .image-with-text__heading {
+    text-align: center;
+}
+
+.image-with-text--custom .image-with-text__heading span {
+    display: inline-block;
+    margin: 1vw 0;
+    background: linear-gradient(to right, #FAE6C1 21.02%, #8A481D 92.97%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    font-size: 5vw;
+}
+
+.image-with-text--custom .image-with-text__text {
+    font-size: 1.46vw;
+    line-height: 125%;
+    letter-spacing: 0.56px;
+    text-transform: capitalize;
+}
+
+.image-with-text--home-type.image-with-text--custom .image-with-text__text {
+    text-align: center;
+}
+
+.image-with-text--home-type.image-with-text--custom .image-with-text__image-wrapper {
+    margin-top: -20%;
+}
+
+@media screen and (max-width: 859px) {
+    .image-with-text--custom .image-with-text__heading {
+        font-size: 40px;
+    }
+
+    .image-with-text--custom .image-with-text__heading span {
+        font-size: 46px;
+        margin: 10px 0;
+    }
+
+    .image-with-text--custom .image-with-text__text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .image-with-text--custom .image-with-text__image-wrapper {
+        width: 100%;
+    }
+
+    .image-with-text--custom .image-with-text__content {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .image-with-text--custom .image-with-text__heading {
+        font-size: 80px;
+    }
+
+    .image-with-text--custom .image-with-text__heading span {
+        font-size: 96px;
+        margin: 20px 0;
+    }
+
+    .image-with-text--custom .image-with-text__text {
+        font-size: 28px;
+    }
+}
