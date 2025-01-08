@@ -5,6 +5,7 @@
       "blocks": {
         "filter-1": {
           "type": "filter",
+          "disabled": true,
           "settings": {
             "filter_option": "faceted",
             "filter_groups": "expand_first",
@@ -22,6 +23,7 @@
       "block_order": [
         "filter-1"
       ],
+      "disabled": true,
       "settings": {
         "show_collection_image": true,
         "products_per_page_range": 24,
@@ -37,6 +39,7 @@
     },
     "static-recently-viewed": {
       "type": "static-recently-viewed",
+      "disabled": true,
       "settings": {
         "enable_recently_viewed_products": true
       }

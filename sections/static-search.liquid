@@ -268,9 +268,9 @@
             </h2>
 
             {% if search.performed %}
-              <a class="productgrid--no-results-button" href="{{ routes.all_products_collection_url }}">
-                {{ 'search.general.view_all_products' | t }}
-              </a>
+              {% comment %}<a class="productgrid--no-results-button" href="{{ routes.all_products_collection_url }}">{% endcomment %}
+                {% comment %}{{ 'search.general.view_all_products' | t }}{% endcomment %}
+              {% comment %}</a>{% endcomment %}
             {% endif %}
           </div>
         {% endif %}
